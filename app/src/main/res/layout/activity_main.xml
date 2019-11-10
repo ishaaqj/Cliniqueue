@@ -8,38 +8,50 @@
     android:background="@drawable/bluetolightblue"
     tools:context="com.example.ishaaq.cliniqueue.MainActivity">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bluetolightblue">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="361dp"
-        android:layout_height="217dp"
-        android:src="@drawable/hospitalicon"
-        tools:layout_editor_absoluteX="12dp"
-        tools:layout_editor_absoluteY="175dp" />
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="361dp"
+            android:layout_height="217dp"
+            android:src="@drawable/hospitalicon"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="175dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="100dp"/>
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="257dp"
-        android:layout_height="83dp"
-        android:text="Cliniqueue"
-        android:textAlignment="center"
-        android:textColor="#FFFF"
-        android:textSize="50dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="72dp" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="257dp"
+            android:layout_height="83dp"
+            android:text="Cliniqueue"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textSize="50dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            tools:layout_editor_absoluteX="64dp"
+            tools:layout_editor_absoluteY="72dp" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="191dp"
-        android:layout_height="83dp"
-        android:text="Register / Sign In"
-        android:textAlignment="center"
-        android:textColor="#FFFF"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="97dp"
-        tools:layout_editor_absoluteY="442dp" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="191dp"
+            android:layout_height="83dp"
+            android:text="Register / Sign In"
+            android:textAlignment="center"
+            android:textColor="#FFFF"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="120dp"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="442dp" />
+    </LinearLayout>
 
 
 
