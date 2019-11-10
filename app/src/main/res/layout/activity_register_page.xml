@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterPage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cliniqueue"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Don't want to wait in a line, Join Now"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="30dp"
+            android:hint="First Name" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textColorHint="@color/white"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/white"
+            android:hint="Last Name" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/white"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white"
+            android:hint="Email" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/white"
+            android:textColorHint="@color/white"
+            android:hint="Password" />
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="@color/white"
+            android:inputType="textPersonName"
+            android:hint="Enter your Address"
+            android:textColorHint="@color/white"/>
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="textPersonName"
+            android:backgroundTint="@color/white"
+            android:hint="Health Card Number"
+            android:textColorHint="@color/white"/>
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:inputType="textPersonName"
+            android:hint="Insurance Number"
+            android:textColorHint="@color/white"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Agree AND Register"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:background="@drawable/transparent_button"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already a member? Sign In"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_marginLeft="110dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
