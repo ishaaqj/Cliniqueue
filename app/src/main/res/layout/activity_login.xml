@@ -14,7 +14,7 @@
         tools:layout_editor_absoluteY="26dp">
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/editText10"
             android:layout_width="318dp"
             android:layout_height="40dp"
             android:text="Username:"
@@ -24,7 +24,7 @@
             tools:layout_editor_absoluteY="98dp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/editText21"
             android:layout_width="322dp"
             android:layout_height="41dp"
             android:text="Password:"
@@ -34,7 +34,7 @@
             tools:layout_editor_absoluteY="256dp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonLogin"
             android:layout_width="350dp"
             android:layout_height="70dp"
             android:background="@drawable/transparent_bg_bordered"
@@ -46,7 +46,7 @@
             tools:layout_editor_absoluteY="396dp" />
 
         <EditText
-            android:id="@+id/Enter Password"
+            android:id="@+id/editText1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -55,7 +55,7 @@
             tools:layout_editor_absoluteY="297dp" />
 
         <EditText
-            android:id="@+id/editText14"
+            android:id="@+id/editText2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="10"
