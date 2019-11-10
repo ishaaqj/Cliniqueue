@@ -60,7 +60,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Username"
+            android:text="Enter your username"
             tools:layout_editor_absoluteX="16dp"
             tools:layout_editor_absoluteY="138dp" />
 

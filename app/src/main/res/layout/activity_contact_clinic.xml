@@ -13,17 +13,16 @@
         android:orientation="vertical">
 
 
-
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
-            android:textSize="32sp"
-            android:textColor="#FFFFFF"
             android:gravity="center"
-            android:textStyle="bold"
-            android:text="AppleTree Medical center" />
+            android:text="Clinic Centre"
+            android:textColor="#FFFFFF"
+            android:textSize="32sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
@@ -50,22 +49,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
             android:gravity="center"
-            android:text="CLosed" />
+            android:text="Closed"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <Button
             android:id="@+id/button"
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:layout_marginTop="50dp"
             android:layout_marginLeft="10dp"
-            android:textSize="20sp"
+            android:layout_marginTop="50dp"
             android:background="@drawable/transparent_bg_bordered"
             android:text="Call Clinic"
-            android:textStyle="bold"
-            android:textColor="@color/white"/>
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/button2"
