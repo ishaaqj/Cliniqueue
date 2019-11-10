@@ -59,7 +59,7 @@
             android:hint="Last Name" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/datepicker"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"

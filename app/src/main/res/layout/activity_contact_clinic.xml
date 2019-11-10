@@ -58,7 +58,7 @@
             android:id="@+id/button"
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="50dp"
             android:background="@drawable/transparent_bg_bordered"
             android:text="Call Clinic"
@@ -70,13 +70,13 @@
             android:id="@+id/button2"
             android:layout_width="350dp"
             android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="10dp"
-            android:textSize="20sp"
-            android:textColor="@color/white"
-            android:textStyle="bold"
             android:background="@drawable/transparent_bg_bordered"
-            android:text="Book Appointment" />
+            android:text="Book Appointment"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
