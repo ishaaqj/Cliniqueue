@@ -10,9 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".loginActivity"></activity>
-        <activity android:name=".contactClinic" />
+        <activity android:name=".contactClinicActivity" />
         <activity android:name=".waitingForConfirmationActivity" />
-        <activity android:name=".RegisterPage" >
+        <activity android:name=".createAccountUserActivity" >
             <intent-filter>
                 <action android:name="com.example.ishaaq.cliniqueue"/>
                 <category android:name="android.intent.category.DEFAULT" />
@@ -27,7 +27,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity android:name=".reasonForVisitActivity" />
     </application>
