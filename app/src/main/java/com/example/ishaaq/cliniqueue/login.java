@@ -12,7 +12,7 @@ public class login extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        final Button button = findViewById(R.id.buttonLogin);
+        /*final Button button = findViewById(R.id.buttonLogin);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 EditText username = (EditText) findViewById(R.id.editText1);
@@ -23,6 +23,6 @@ public class login extends AppCompatActivity {
                     //wrong password
                 }
             }
-        });
+        });*/
     }
 }

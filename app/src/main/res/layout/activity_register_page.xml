@@ -9,7 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/bluetolightblue">
 
         <TextView
             android:id="@+id/textView"
@@ -58,28 +59,28 @@
             android:hint="Last Name" />
 
         <EditText
-            android:id="@+id/editText4"
+            android:id="@+id/datepicker"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="DD/MM/YYYY"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white"
-            android:hint="Email" />
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/editText5"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="30dp"
-            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/white"
-            android:textColorHint="@color/white"
-            android:hint="Password" />
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white" />
         <EditText
             android:id="@+id/editText2"
             android:layout_width="350dp"
@@ -102,17 +103,18 @@
             android:backgroundTint="@color/white"
             android:hint="Health Card Number"
             android:textColorHint="@color/white"/>
+
         <EditText
             android:id="@+id/editText7"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/white"
             android:ems="10"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="30dp"
+            android:hint="Password"
             android:inputType="textPersonName"
-            android:hint="Insurance Number"
-            android:textColorHint="@color/white"/>
+            android:textColorHint="@color/white" />
 
         <Button
             android:id="@+id/button"
