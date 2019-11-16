@@ -11,7 +11,7 @@ import android.widget.EditText;
 
 import java.util.Calendar;
 
-public class RegisterPage extends AppCompatActivity {
+public class createAccountUserActivity extends AppCompatActivity {
 
     private EditText mDisplayDate;
     private DatePickerDialog.OnDateSetListener  mDateSetlistener;
@@ -19,7 +19,7 @@ public class RegisterPage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register_page);
+        setContentView(R.layout.activity_create_account_user);
 
         mDisplayDate = (EditText) findViewById(R.id.datepicker);
         mDisplayDate.setOnClickListener(new View.OnClickListener() {
@@ -30,7 +30,7 @@ public class RegisterPage extends AppCompatActivity {
                 int month = cal.get(Calendar.MONTH);
                 int day = cal.get(Calendar.DAY_OF_MONTH);
 
-                DatePickerDialog dialog = new DatePickerDialog(RegisterPage.this,
+                DatePickerDialog dialog = new DatePickerDialog(createAccountUserActivity.this,
                         android.R.style.Theme_Holo_Light,
                         mDateSetlistener, year, month, day);
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));

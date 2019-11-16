@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-public class login extends AppCompatActivity {
+public class loginActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

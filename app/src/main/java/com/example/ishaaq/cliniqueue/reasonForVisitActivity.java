@@ -11,14 +11,14 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class Main2Activity extends AppCompatActivity {
+public class reasonForVisitActivity extends AppCompatActivity {
     private List<String> liste;
     private ArrayAdapter<String> adapter;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main2);
+        setContentView(R.layout.activity_reason_for_visit);
 
         String[] values = new String[] { "Android", "iPhone", "WindowsMobile",
                 "Blackberry", "WebOS", "Ubuntu", "Windows7", "Max OS X",

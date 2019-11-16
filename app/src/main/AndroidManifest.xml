@@ -9,19 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".login"></activity>
-        <activity android:name=".Contact_clinic" />
-        <activity android:name=".waitingForConfirmation2" />
+        <activity android:name=".loginActivity"></activity>
+        <activity android:name=".contactClinic" />
+        <activity android:name=".waitingForConfirmationActivity" />
         <activity android:name=".RegisterPage" >
             <intent-filter>
                 <action android:name="com.example.ishaaq.cliniqueue"/>
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".xtraDetails2" />
-        <activity android:name=".confirmation_page2" />
-        <activity android:name=".login_as_admin" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".xtraDetailsActivity" />
+        <activity android:name=".bookingConfirmationActivity" />
+        <activity android:name=".loginAsAdminActivity" />
+        <activity android:name=".homepageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -29,7 +29,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".Main2Activity" />
+        <activity android:name=".reasonForVisitActivity" />
     </application>
 
 </manifest>

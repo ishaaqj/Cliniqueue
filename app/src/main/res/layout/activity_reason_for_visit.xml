@@ -7,7 +7,7 @@
     android:background="@drawable/bluetolightblue"
 
 
-    tools:context="com.example.ishaaq.cliniqueue.Main2Activity">
+    tools:context="com.example.ishaaq.cliniqueue.reasonForVisitActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
