@@ -13,7 +13,7 @@
         android:background="@drawable/bluetolightblue">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/confirmBooking"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -21,16 +21,16 @@
             android:background="@drawable/transparent_button"
             android:text="PLEASE CONFIRM"
             android:textColor="@color/white"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:onClick="confirmBookingButton"/>
 
         <TextView
-            android:id="@+id/textView8"
+            android:id="@+id/showText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
             android:layout_marginRight="60dp"
             android:layout_marginTop="50dp"
-            android:text="Booking response has been sent.\n Please wait for a resposne"
             android:textColor="@color/white"
             android:textAlignment="center"
             android:textSize="20dp" />
