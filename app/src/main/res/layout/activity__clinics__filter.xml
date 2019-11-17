@@ -93,7 +93,6 @@
         android:ems="10"
         android:inputType="time"
         android:hint="Availability Time From"/>
-
         <EditText
             android:id="@+id/editText5"
             android:layout_width="match_parent"

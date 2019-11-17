@@ -8,6 +8,6 @@ public class clinic_requests extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clinic_requests);
+        setContentView(R.layout.activity_client_requests);
     }
 }
