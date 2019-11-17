@@ -6,44 +6,69 @@
     android:layout_height="match_parent"
     android:background="@drawable/bluetolightblue"
     android:orientation="vertical"
-    tools:context=".activity_clinics_list">
+    tools:context=".activity_clinics_list"
+    android:weightSum="1">
     <TextView
         android:id="@+id/clinic1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="UOttawa Health Services" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="UOttawa Health Services"
+        android:textSize="32sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
 
     <TextView
         android:id="@+id/clinic2"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Rideau-Friel Medical Centre" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Rideau-Friel Medical Centre"
+        android:textSize="32sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
     <TextView
         android:id="@+id/clinic3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Appletree Medical Group - Sparks" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Appletree Medical Group - Sparks"
+        android:textSize="32sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
 
     <TextView
         android:id="@+id/clinic4"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Appletree Medical Group - Bank" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Appletree Medical Group - Bank"
+        android:textSize="32sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
 
     <TextView
         android:id="@+id/clinic5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Carleton University Medical Services" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Carleton University Medical Services"
+        android:textSize="32sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
     <TextView
         android:id="@+id/clinic6"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:text="Appletree Medical Group - Slater" />
+        android:layout_height="wrap_content"
+        android:layout_weight="0.1"
+        android:text="Appletree Medical Group - Slater"
+        android:textSize="32sp"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
 </LinearLayout>
