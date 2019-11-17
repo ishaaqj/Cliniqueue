@@ -1,5 +1,7 @@
 package com.example.ishaaq.cliniqueue;
 
+import android.content.Intent;
+import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -25,9 +27,18 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
         showBooking = (TextView)findViewById(R.id.showText);
     }
 
-    public void confirmBookingButton(View view) {
+    public void confirmBookingButton(final View view) {
         showBooking.setText("Booking response has been sent.\n Please wait for a resposne");
         progressbar.setVisibility(View.VISIBLE);
+        final Handler handler = new Handler();
+        handler.postDelayed(new Runnable() {
+            @Override
+            public void run() {
+                Intent myIntent = new Intent(view.getContext(), bookingConfirmationActivity.class);
+                startActivityForResult(myIntent, 0);
+            }
+        }, 3000);
     }
+
 }
 
