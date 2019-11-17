@@ -30,7 +30,8 @@
 
         <activity
             android:name=".Map"
-            android:label="@string/title_activity_map"></activity>
+            android:label="@string/title_activity_map">
+        </activity>
         <activity android:name=".loginActivity" />
         <activity android:name=".contactClinicActivity" />
         <activity android:name=".waitingForConfirmationActivity" />
