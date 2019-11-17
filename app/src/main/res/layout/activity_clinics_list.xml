@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluetolightblue"
+    android:orientation="vertical"
+    tools:context=".activity_clinics_list">
+    <TextView
+        android:id="@+id/clinic1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="UOttawa Health Services" />
+
+    <TextView
+        android:id="@+id/clinic2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Rideau-Friel Medical Centre" />
+    <TextView
+        android:id="@+id/clinic3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Appletree Medical Group - Sparks" />
+
+    <TextView
+        android:id="@+id/clinic4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Appletree Medical Group - Bank" />
+
+    <TextView
+        android:id="@+id/clinic5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Carleton University Medical Services" />
+    <TextView
+        android:id="@+id/clinic6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Appletree Medical Group - Slater" />
+</LinearLayout>
