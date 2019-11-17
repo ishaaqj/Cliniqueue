@@ -16,13 +16,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".loginActivity"></activity>
-        <activity android:name=".contactClinicActivity" />
-        <activity android:name=".waitingForConfirmationActivity" />
-        <activity android:name=".createAccountUserActivity" >
-=======
-
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -33,16 +26,15 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="@string/google_maps_key" />
+            android:value="3" />
 
         <activity
             android:name=".Map"
             android:label="@string/title_activity_map"></activity>
         <activity android:name=".loginActivity" />
-        <activity android:name=".contactClinic" />
+        <activity android:name=".contactClinicActivity" />
         <activity android:name=".waitingForConfirmationActivity" />
-        <activity android:name=".RegisterPage">
->>>>>>> 6977c41fb99ded158bde38c78e01667a71bae425
+        <activity android:name=".createAccountUserActivity">
             <intent-filter>
                 <action android:name="com.example.ishaaq.cliniqueue" />
 
