@@ -17,6 +17,8 @@ import java.util.Calendar;
 
 public class createAccountUserActivity extends AppCompatActivity {
 
+    Button button;
+
     TextView textView;
 
     private EditText mDisplayDate;
@@ -26,6 +28,15 @@ public class createAccountUserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account_user);
+
+        button= (Button) findViewById(R.id.button);
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1= new Intent(createAccountUserActivity.this,Map .class);
+                startActivity(intent1);
+            }
+        });
 
         textView=(TextView)findViewById(R.id.textView2);
         textView.setOnClickListener(new View.OnClickListener() {
