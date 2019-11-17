@@ -8,6 +8,18 @@
     android:orientation="vertical"
     tools:context=".activity_clinics_list"
     android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clinic List"
+        android:gravity="center"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="390dp"
+        android:textSize="45sp"
+        android:textColor="#FFFFFF"/>
+
     <TextView
         android:id="@+id/clinic1"
         android:layout_width="match_parent"
