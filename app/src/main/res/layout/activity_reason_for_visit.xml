@@ -41,66 +41,71 @@
             android:background="@drawable/transparent_button"
             android:textColor="@color/white"
             android:textSize="15dp"/>
+
         <Button
             android:id="@+id/button2"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="Allergy Shot"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="122dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/transparent_button"
+            android:text="Skin Disorder"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="122dp" />
+
         <Button
             android:id="@+id/button3"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="Any Vaccination"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="163dp"
             android:background="@drawable/transparent_button"
+            android:text="Vaccination"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="163dp" />
+
         <Button
             android:id="@+id/button4"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="Asthma Related Visit"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="204dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/transparent_button"
+            android:text="joint disorder"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="204dp" />
+
         <Button
             android:id="@+id/button5"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="B-12 Shot"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="245dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/transparent_button"
+            android:text="back problems"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="245dp" />
+
         <Button
             android:id="@+id/button6"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="Eye Problem"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="286dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/transparent_button"
+            android:text="Cholestrol problems"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="286dp" />
         <Button
             android:id="@+id/button7"
             android:layout_width="361dp"
@@ -125,42 +130,58 @@
             android:background="@drawable/transparent_button"
             android:textColor="@color/white"
             android:textSize="15dp"/>
+
         <Button
             android:id="@+id/button9"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="Burn OR Dressing Change"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="409dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/transparent_button"
+            android:text="Blood pressure"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="409dp" />
+
         <Button
             android:id="@+id/button10"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="Blood Pressure Visit"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="450dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/transparent_button"
+            android:text="Mental Health"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="450dp" />
+
         <Button
             android:id="@+id/button11"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
-            android:text="Birth Control Visit"
-            tools:layout_editor_absoluteX="12dp"
-            tools:layout_editor_absoluteY="491dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="5dp"
             android:background="@drawable/transparent_button"
+            android:text="Headaches and migraines"
             android:textColor="@color/white"
-            android:textSize="15dp"/>
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="491dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="361dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/transparent_button"
+            android:text="Other"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            tools:layout_editor_absoluteX="12dp"
+            tools:layout_editor_absoluteY="491dp" />
     </LinearLayout>
 
 
