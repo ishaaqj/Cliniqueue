@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rotate
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:fromDegrees="90"
+    android:duration="3000"
+    android:fromDegrees="0"
     android:pivotX="50%"
     android:pivotY="50%"
     android:toDegrees="360">
@@ -12,9 +13,9 @@
         android:thicknessRatio="7.0">
 
         <gradient
-            android:centerColor="#007DD6"
-            android:endColor="@color/white"
-            android:startColor="@color/white"
+            android:centerColor="#e5e5e5"
+            android:endColor="#ffffff"
+            android:startColor="#cccccc"
             android:angle="0"
             android:type="sweep"
             android:useLevel="false" />
