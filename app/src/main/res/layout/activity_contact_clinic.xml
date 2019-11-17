@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
             android:gravity="center"
-            android:text="Clinic Centre"
+            android:text="UOttawa Health Services"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:textStyle="bold" />
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:gravity="center"
-            android:text="CLINIC DETAILS:"
+            android:text="100 Marie-Curie"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -41,7 +41,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
             android:gravity="center"
-            android:text="1029 Hello Street"
+            android:text="Open today 8:00AM - 8:00PM"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -51,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="Closed"
+            android:text="Estimated wait time: 120 min"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
