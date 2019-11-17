@@ -8,19 +8,19 @@ import android.widget.Button;
 
 public class contactClinicActivity extends AppCompatActivity {
 
-    private Button button2;
+    private Button button88;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_clinic);
 
-        button2= (Button) findViewById(R.id.button2);
-        button2.setOnClickListener(new View.OnClickListener() {
+        button88= (Button) findViewById(R.id.button88);
+        button88.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(contactClinicActivity.this,reasonForVisitActivity .class);
-                startActivity(intent1);
+                Intent intent88= new Intent(contactClinicActivity.this,reasonForVisitActivity.class);
+                startActivity(intent88);
             }
         });
 
