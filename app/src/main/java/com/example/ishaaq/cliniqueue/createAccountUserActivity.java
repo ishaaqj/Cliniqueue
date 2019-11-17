@@ -10,10 +10,14 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
 public class createAccountUserActivity extends AppCompatActivity {
+
+    TextView textView;
 
     private EditText mDisplayDate;
     private DatePickerDialog.OnDateSetListener  mDateSetlistener;
@@ -22,6 +26,16 @@ public class createAccountUserActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account_user);
+
+        textView=(TextView)findViewById(R.id.textView2);
+        textView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent= new Intent(createAccountUserActivity.this,loginActivity.class);
+                startActivity(intent);
+
+            }
+        });
 
         Button btn = (Button)findViewById(R.id.button);
 
