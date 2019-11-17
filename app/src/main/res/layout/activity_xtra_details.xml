@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="10dp"
-            android:text="Please Enter the Following details"
+            android:text="Please Enter the Following Details"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="20dp"

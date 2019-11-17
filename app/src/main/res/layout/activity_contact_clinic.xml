@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
 
 
         <TextView
@@ -29,20 +30,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
             android:gravity="center"
-            android:text="CLINIC DETAILS:" />
+            android:text="CLINIC DETAILS:"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
             android:gravity="center"
-            android:text="1029 Hello Street" />
+            android:text="1029 Hello Street"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView5"
