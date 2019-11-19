@@ -13,6 +13,8 @@ import org.w3c.dom.Text;
 
 public class waitingForConfirmationActivity extends AppCompatActivity {
 
+    Button button2;
+
     ProgressBar progressbar;
     Button confirm;
     TextView showBooking;
@@ -22,6 +24,15 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_waiting_for_confirmation);
+
+        button2= (Button) findViewById(R.id.confirmBooking);
+        button2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1= new Intent(waitingForConfirmationActivity.this,bookingConfirmationActivity.class);
+                startActivity(intent1);
+            }
+        });
         progressbar = (ProgressBar)findViewById(R.id.progressBar);
         confirm  = (Button)findViewById(R.id.confirmBooking);
         showBooking = (TextView)findViewById(R.id.showText);

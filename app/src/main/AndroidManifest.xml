@@ -26,13 +26,18 @@
         -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="3" />
+            android:value="AIzaSyBF-VwfDysulHt6GaaWDHrcL0X4hu_yec0"  />
 
         <activity
             android:name=".Map"
-            android:label="@string/title_activity_map">
+            android:label="@string/title_activity_map"></activity>
+        <activity android:name=".loginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
-        <activity android:name=".loginActivity" />
         <activity android:name=".contactClinicActivity" />
         <activity android:name=".waitingForConfirmationActivity" />
         <activity android:name=".createAccountUserActivity">

@@ -22,7 +22,6 @@ public class reasonForVisitActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reason_for_visit);
 
-        Button button = (Button)findViewById(R.id.button);
         Button button1 = (Button)findViewById(R.id.button1);
         Button button2 = (Button)findViewById(R.id.button2);
         Button button3 = (Button)findViewById(R.id.button3);
@@ -35,12 +34,7 @@ public class reasonForVisitActivity extends AppCompatActivity {
         Button button10 = (Button)findViewById(R.id.button10);
         Button button11 = (Button)findViewById(R.id.button11);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
-            }
-        });
+
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

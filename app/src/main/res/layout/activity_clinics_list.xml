@@ -15,7 +15,8 @@
         android:layout_weight="0.1"
         android:text="UOttawa Health Services"
         android:textSize="32sp"
-        android:onClick="onClick"
+        android:textColor="#FFFFFF"
+
         android:clickable="true"
         />
 
@@ -26,7 +27,8 @@
         android:layout_weight="0.1"
         android:text="Rideau-Friel Medical Centre"
         android:textSize="32sp"
-        android:onClick="onClick"
+        android:textColor="#FFFFFF"
+
         android:clickable="true"
         />
     <TextView
@@ -36,7 +38,8 @@
         android:layout_weight="0.1"
         android:text="Appletree Medical Group - Sparks"
         android:textSize="32sp"
-        android:onClick="onClick"
+        android:textColor="#FFFFFF"
+
         android:clickable="true"
         />
 
@@ -47,7 +50,7 @@
         android:layout_weight="0.1"
         android:text="Appletree Medical Group - Bank"
         android:textSize="32sp"
-        android:onClick="onClick"
+        android:textColor="#FFFFFF"
         android:clickable="true"
         />
 
@@ -58,7 +61,8 @@
         android:layout_weight="0.1"
         android:text="Carleton University Medical Services"
         android:textSize="32sp"
-        android:onClick="onClick"
+        android:textColor="#FFFFFF"
+
         android:clickable="true"
         />
     <TextView
@@ -68,7 +72,8 @@
         android:layout_weight="0.1"
         android:text="Appletree Medical Group - Slater"
         android:textSize="32sp"
-        android:onClick="onClick"
+        android:textColor="#FFFFFF"
+        
         android:clickable="true"
         />
 </LinearLayout>

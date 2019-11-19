@@ -38,25 +38,25 @@
             android:id="@+id/editText"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:layout_marginTop="30dp"
-            android:textColorHint="@color/white"
-            android:backgroundTint="@color/white"
             android:layout_marginLeft="30dp"
-            android:hint="First Name" />
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/editText3"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_marginTop="15dp"
             android:layout_marginLeft="30dp"
-            android:textColorHint="@color/white"
-            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/white"
-            android:hint="Last Name" />
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/datepicker"

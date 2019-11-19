@@ -10,7 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent">
 
 
         <TextView
@@ -19,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
             android:gravity="center"
-            android:text="Clinic Centre"
+            android:text="UOttawa Health Services"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
             android:textStyle="bold" />
@@ -29,20 +30,20 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
             android:gravity="center"
-            android:text="CLINIC DETAILS:" />
+            android:text="100 Marie-Curie"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:textSize="20sp"
-            android:textColor="#FFFFFF"
             android:gravity="center"
-            android:text="1029 Hello Street" />
+            android:text="Open today 8:00AM - 8:00PM"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
 
         <TextView
             android:id="@+id/textView5"
@@ -50,7 +51,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:text="Closed"
+            android:text="Estimated wait time: 120 min"
             android:textColor="#FFFFFF"
             android:textSize="20sp" />
 
@@ -67,7 +68,7 @@
             android:textStyle="bold" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/button88"
             android:layout_width="350dp"
             android:layout_height="70dp"
             android:layout_marginLeft="30dp"
