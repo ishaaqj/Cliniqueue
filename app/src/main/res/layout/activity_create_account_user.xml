@@ -67,7 +67,7 @@
             android:backgroundTint="@color/white"
             android:ems="10"
             android:hint="DD/MM/YYYY"
-            android:inputType="textPersonName"
+            android:inputType="date"
             android:textColorHint="@color/white" />
 
         <EditText
@@ -79,7 +79,7 @@
             android:backgroundTint="@color/white"
             android:ems="10"
             android:hint="Phone Number"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:textColorHint="@color/white" />
         <EditText
             android:id="@+id/editText2"
@@ -99,7 +99,7 @@
             android:ems="10"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="30dp"
-            android:inputType="textPersonName"
+            android:inputType="number"
             android:backgroundTint="@color/white"
             android:hint="Health Card Number"
             android:textColorHint="@color/white"/>
