@@ -38,7 +38,7 @@ public class createAccountUserActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(createAccountUserActivity.this,xtraDetailsActivity .class);
+                Intent intent1= new Intent(createAccountUserActivity.this,loginActivity.class);
                 string1=editText1.getText().toString();
                 intent1.putExtra("Value",string1);
                 startActivity(intent1);

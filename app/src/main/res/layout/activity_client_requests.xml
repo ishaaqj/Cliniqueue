@@ -25,7 +25,7 @@
             android:textSize="45sp"
             android:textColor="#FFFFFF"/>
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/Nour"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nour Dowedar"
@@ -34,11 +34,11 @@
         android:layout_marginBottom="10dp"
         android:textSize="32sp"
         android:textColor="#FFFFFF"
-        android:onClick="onClick"
+        android:onClick="Nour"
         android:clickable="true"/>
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/Abdelrahman"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Abdelrahman Mohamad"
@@ -47,11 +47,11 @@
         android:layout_marginBottom="10dp"
         android:textSize="32sp"
         android:textColor="#FFFFFF"
-        android:onClick="onClick"
+        android:onClick="Abdelrahman"
         android:clickable="true"/>
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/Tanisha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Tanisha Jain"
@@ -60,11 +60,11 @@
         android:layout_marginBottom="10dp"
         android:textSize="32sp"
         android:textColor="#FFFFFF"
-        android:onClick="onClick"
+        android:onClick="Tanisha"
         android:clickable="true"/>
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/Jimit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Jimit Modi"
@@ -73,11 +73,11 @@
         android:layout_marginBottom="10dp"
         android:textSize="32sp"
         android:textColor="#FFFFFF"
-        android:onClick="onClick"
+        android:onClick="Jimit"
         android:clickable="true"/>
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/Ishaaq"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Ishaaq Jiffry"
@@ -86,12 +86,12 @@
         android:layout_marginBottom="10dp"
         android:textSize="32sp"
         android:textColor="#FFFFFF"
-        android:onClick="onClick"
+        android:onClick="Ishaaq"
         android:clickable="true"/>
 
 
     <TextView
-        android:id="@+id/textView17"
+        android:id="@+id/Michael"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Michael Zalewski"
@@ -100,7 +100,7 @@
         android:layout_marginBottom="10dp"
         android:textSize="32sp"
         android:textColor="#FFFFFF"
-        android:onClick="onClick"
+        android:onClick="Michael"
         android:clickable="true"/>
 
 </LinearLayout>
