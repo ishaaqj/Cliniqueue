@@ -1,7 +1,9 @@
 package com.example.ishaaq.cliniqueue;
 
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -42,5 +44,15 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         LatLng uOttawa = new LatLng(45.421946, -75.680325);
         mMap.addMarker(new MarkerOptions().position(uOttawa).title("University of Ottawa Health Services"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(uOttawa));
+    }
+
+    public void showAppointmentsButton(View view) {
+        Intent intent4= new Intent(Map.this,contactClinicActivity .class);
+        startActivity(intent4);
+    }
+
+    public void showClinicsListButton(View view) {
+        Intent intent4= new Intent(Map.this,activity_show_appointments .class);
+        startActivity(intent4);
     }
 }
