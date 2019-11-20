@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bluetolightblue"
+    tools:context=".clinic_enter_wait_time">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Queue Number"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/editText13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:ems="20"
+            android:hint="Enter the client's place in the queue"
+            android:inputType="number"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="196dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wait Time"
+            android:textSize="25dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:id="@+id/editText14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the client's approximate wait time"
+            android:ems="20"
+            android:inputType="number"
+            android:textColorHint="@color/white"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="196dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"/>
+
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Confirm"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

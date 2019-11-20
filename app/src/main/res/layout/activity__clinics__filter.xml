@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_Clinics_Filter">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/bluetolightblue">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Clinics Filter"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="30dp"
+            android:hint="Clinic Name" />
+
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="30dp"
+            android:hint="Distance" />
+
+
+        <SeekBar
+            android:id="@+id/seekBar1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:max="150"
+            android:paddingTop="40dp"
+            android:progress="10"
+            android:progressDrawable="@drawable/custom_progress"
+            android:thumb="@drawable/thumb" />
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="30dp"
+            android:hint="Wait Time" />
+
+        <SeekBar
+            android:id="@+id/seekBar2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:max="150"
+            android:paddingTop="40dp"
+            android:progress="10"
+            android:progressDrawable="@drawable/custom_progress"
+            android:thumb="@drawable/thumb" />
+
+
+        <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time"
+        android:hint="Availability Time From"/>
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time"
+            android:hint="Availability Time To"/>
+
+
+        <Button
+        android:id="@+id/button"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Filter"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/transparent_button"/>
+
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

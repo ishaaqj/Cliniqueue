@@ -13,12 +13,14 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.security.PrivateKey;
 import java.util.Calendar;
 
 public class createAccountUserActivity extends AppCompatActivity {
 
     Button button;
-
+    EditText editText1;
+    String string1;
     TextView textView;
 
     private EditText mDisplayDate;
@@ -29,11 +31,16 @@ public class createAccountUserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account_user);
 
+        editText1=findViewById(R.id.editText);
+
+
         button= (Button) findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(createAccountUserActivity.this,Map .class);
+                Intent intent1= new Intent(createAccountUserActivity.this,xtraDetailsActivity .class);
+                string1=editText1.getText().toString();
+                intent1.putExtra("Value",string1);
                 startActivity(intent1);
             }
         });
@@ -45,15 +52,6 @@ public class createAccountUserActivity extends AppCompatActivity {
                 Intent intent= new Intent(createAccountUserActivity.this,loginActivity.class);
                 startActivity(intent);
 
-            }
-        });
-
-        Button btn = (Button)findViewById(R.id.button);
-
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(createAccountUserActivity.this, reasonForVisitActivity.class));
             }
         });
 

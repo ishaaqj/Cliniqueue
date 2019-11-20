@@ -4,59 +4,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".createAccountUserActivity">
+    tools:context=".CreateAccountAdmin">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bluetolightblue">
+        android:background="@drawable/bluetolightblue"
+        tools:layout_editor_absoluteY="64dp"
+        tools:layout_editor_absoluteX="-79dp">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="64dp"
+        tools:layout_editor_absoluteX="-79dp"
+        android:gravity="center">
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cliniqueue"
-            android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:text="Clinic Adminstrator Sign-up"
+            android:layout_centerHorizontal="true"
             android:textAlignment="center"
-            android:layout_marginLeft="150dp"
-            android:layout_marginTop="10dp"/>
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
         <TextView
             android:id="@+id/textView1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't want to wait in a line, Join Now"
-            android:textSize="20dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:text="Get rid of the line, Join Now"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:layout_marginLeft="40dp"
-            android:layout_marginTop="20dp"/>
+            android:textSize="20dp" />
 
         <EditText
             android:id="@+id/editText"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="30dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
-            android:hint="Full Name"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:layout_marginTop="30dp"
+            android:textColorHint="@color/white"
+            android:backgroundTint="@color/white"
+            android:layout_marginLeft="30dp"
+            android:hint="Clinic  Name" />
 
         <EditText
             android:id="@+id/editText3"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
-            android:hint="Email"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textColorHint="@color/white"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:backgroundTint="@color/white"
+            android:hint="Clinic Address" />
 
         <EditText
             android:id="@+id/datepicker"
@@ -66,8 +77,8 @@
             android:layout_marginTop="15dp"
             android:backgroundTint="@color/white"
             android:ems="10"
-            android:hint="DD/MM/YYYY"
-            android:inputType="date"
+            android:hint="Working Hours"
+            android:inputType="textPersonName"
             android:textColorHint="@color/white" />
 
         <EditText
@@ -79,19 +90,9 @@
             android:backgroundTint="@color/white"
             android:ems="10"
             android:hint="Phone Number"
-            android:inputType="number"
-            android:textColorHint="@color/white" />
-        <EditText
-            android:id="@+id/editText2"
-            android:layout_width="350dp"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:layout_marginTop="15dp"
-            android:layout_marginLeft="30dp"
-            android:backgroundTint="@color/white"
             android:inputType="textPersonName"
-            android:hint="Enter your Address"
-            android:textColorHint="@color/white"/>
+            android:textColorHint="@color/white" />
+
         <EditText
             android:id="@+id/editText6"
             android:layout_width="350dp"
@@ -99,13 +100,25 @@
             android:ems="10"
             android:layout_marginTop="15dp"
             android:layout_marginLeft="30dp"
-            android:inputType="number"
+            android:inputType="textPersonName"
             android:backgroundTint="@color/white"
-            android:hint="Health Card Number"
-            android:textColorHint="@color/white"/>
+            android:hint="Contact Name"
+            android:textColorHint="@color/white" />
 
         <EditText
             android:id="@+id/editText7"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:backgroundTint="@color/white"
+            android:ems="10"
+            android:hint="Email Address"
+            android:inputType="textPersonName"
+            android:textColorHint="@color/white" />
+
+        <EditText
+            android:id="@+id/editText8"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -125,7 +138,8 @@
             android:layout_marginLeft="30dp"
             android:textSize="20dp"
             android:textColor="@color/white"
-            android:background="@drawable/transparent_button"/>
+            android:background="@drawable/transparent_button" />
+
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
@@ -135,7 +149,7 @@
             android:textAlignment="center"
             android:layout_marginLeft="110dp"
             android:textColor="@color/white"
-            android:layout_marginTop="30dp"/>
+            android:layout_marginTop="30dp" />
 
     </LinearLayout>
 
