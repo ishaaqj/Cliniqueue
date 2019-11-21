@@ -62,7 +62,7 @@
             android:layout_marginRight="15dp"/>
 
         <Button
-            android:id="@+id/button19"
+            android:id="@+id/confirmWaitTime"
             android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:text="Confirm"

@@ -30,7 +30,7 @@
             android:layout_marginTop="15dp"/>
 
         <Button
-            android:id="@+id/button1"
+            android:id="@+id/allergiReaction"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:text="Alergic Reaction"
