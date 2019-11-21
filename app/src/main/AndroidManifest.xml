@@ -16,44 +16,39 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ShowAppointmentsActivity"></activity>
-        <activity android:name=".notification" />
-        <!--
-             The API key for Google Maps-based APIs is defined as a string resource.
-             (See the file "res/values/google_maps_api.xml").
-             Note that the API key is linked to the encryption key used to sign the APK.
-             You need a different API key for each encryption key, including the release key that is used to
-             sign the APK for publishing.
-             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-        -->
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="3" />
-
-        <activity
-            android:name=".Map"
-            android:label="@string/title_activity_map" />
-        <activity android:name=".PatientLoginActivity" />
+        <activity android:name=".BookingConfirmationActivity" />
         <activity android:name=".ClientDetailsActivity" />
-        <activity android:name=".ContactClinicActivity" />
-        <activity android:name=".waitingForConfirmationActivity" />
+        <activity android:name=".ClinicRequestsActivity"/>
+        <activity android:name=".ClinicsFilterActivity"/>
+        <activity android:name=".ClinicsListActivity"/>
+        <activity android:name=".ContactClinicActivity"/>
+        <activity android:name=".CreateAccountAdminActivity"/>
         <activity android:name=".CreateAccountUserActivity">
             <intent-filter>
                 <action android:name="com.example.ishaaq.cliniqueue" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".ExtraDetailsActivity" />
-        <activity android:name=".BookingConfirmationActivity" />
-        <activity android:name=".LoginAdminActivity" />
+        <activity android:name=".ExtraDetailsActivity"/>
         <activity android:name=".HomepageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
+                <action android:name="android.intent.action.VIEW" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ReasonForVisitActivity" />
+        <activity android:name=".LoginAdminActivity"/>
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map" />
+        <activity android:name=".PatientLoginActivity"/>
+        <activity android:name=".ReasonForVisitActivity"/>
+        <activity android:name=".ShowAppointmentsActivity"/>
+        <activity android:name=".waitingForConfirmationActivity"/>
+        <activity android:name=".notification" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="3" />
     </application>
 
 </manifest>
