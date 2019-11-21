@@ -26,14 +26,14 @@
             tools:layout_editor_absoluteX="77dp"
             tools:layout_editor_absoluteY="68dp"
             android:layout_marginTop="80dp"
-            android:layout_marginLeft="80dp" />
+            android:layout_gravity="center" />
 
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="361dp"
             android:layout_height="217dp"
-            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
             android:src="@drawable/hospitalicon"
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="167dp" />
@@ -47,8 +47,7 @@
             tools:layout_editor_absoluteY="619dp"
             android:background="@drawable/transparent_bg_bordered"
             android:textColor="@color/white"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
             android:layout_marginTop="20dp"/>
 
         <Button
@@ -60,16 +59,14 @@
             tools:layout_editor_absoluteY="554dp"
             android:background="@drawable/transparent_bg_bordered"
             android:textColor="@color/white"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
             android:layout_marginTop="10dp"/>
 
         <Button
             android:id="@+id/button13"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
             android:text="Sign in as a clinic admin"
             tools:layout_editor_absoluteX="97dp"
             tools:layout_editor_absoluteY="487dp"
@@ -86,8 +83,7 @@
             tools:layout_editor_absoluteY="422dp"
             android:background="@drawable/transparent_bg_bordered"
             android:textColor="@color/white"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
+            android:layout_gravity="center"
             android:layout_marginTop="10dp"/>
 
 

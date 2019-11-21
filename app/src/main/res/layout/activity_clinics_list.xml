@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Clinic List"
         android:gravity="center"
+        android:layout_gravity="center"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="390dp"
         android:textSize="45sp"

@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     tools:context=".bookingConfirmationActivity">
 
     <LinearLayout
@@ -16,9 +17,8 @@
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_gravity="center"
             android:layout_marginTop="100dp"
-            android:layout_marginRight="60dp"
             android:text="Booking request has been received.\n\n Your queue number is 7. \n\n Your approximate wait time is: 1 hour."
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -28,9 +28,8 @@
             android:id="@+id/textView9"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="60dp"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:layout_marginRight="60dp"
             android:text="Please note that a $50 late fee will be charged from your account if you do not show up on time."
             android:textAlignment="center"
             android:textColor="@color/white"
@@ -40,7 +39,7 @@
             android:id="@+id/CancelAppointment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="115dp"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:text="Appointments"
             android:onClick="CancelAppointment"/>
