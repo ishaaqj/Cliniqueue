@@ -11,12 +11,10 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import java.security.PrivateKey;
 import java.util.Calendar;
 
-public class createAccountUserActivity extends AppCompatActivity {
+public class CreateAccountUserActivity extends AppCompatActivity {
 
     Button button;
     EditText editText1;
@@ -38,7 +36,7 @@ public class createAccountUserActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(createAccountUserActivity.this,loginActivity.class);
+                Intent intent1= new Intent(CreateAccountUserActivity.this, PatientLoginActivity.class);
                 string1=editText1.getText().toString();
                 intent1.putExtra("Value",string1);
                 startActivity(intent1);
@@ -49,7 +47,7 @@ public class createAccountUserActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(createAccountUserActivity.this,loginActivity.class);
+                Intent intent= new Intent(CreateAccountUserActivity.this, PatientLoginActivity.class);
                 startActivity(intent);
 
             }
@@ -64,7 +62,7 @@ public class createAccountUserActivity extends AppCompatActivity {
                 int month = cal.get(Calendar.MONTH);
                 int day = cal.get(Calendar.DAY_OF_MONTH);
 
-                DatePickerDialog dialog = new DatePickerDialog(createAccountUserActivity.this,
+                DatePickerDialog dialog = new DatePickerDialog(CreateAccountUserActivity.this,
                         android.R.style.Theme_Holo_Light,
                         mDateSetlistener, year, month, day);
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class client_details extends AppCompatActivity {
+public class ClientDetailsActivity extends AppCompatActivity {
     private Button accept;
     private Button decline;
 
@@ -23,7 +23,7 @@ public class client_details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_client_details);
+        setContentView(R.layout.activity_booking_confirmation);
         accept = (Button)findViewById(R.id.accept);
         decline =(Button)findViewById(R.id.decline);
 
@@ -48,12 +48,12 @@ public class client_details extends AppCompatActivity {
     }
 
     public void accept(View view) {
-        Intent intent1= new Intent(client_details.this,clinic_enter_wait_time.class);
+        Intent intent1= new Intent(ClientDetailsActivity.this, ClinicEnterWaitTimeActivity.class);
         startActivity(intent1);
     }
 
     public void decline(View view) {
-        Intent intent2= new Intent(client_details.this,clinic_requests.class);
+        Intent intent2= new Intent(ClientDetailsActivity.this, ClinicRequestsActivity.class);
         startActivity(intent2);
     }
 }

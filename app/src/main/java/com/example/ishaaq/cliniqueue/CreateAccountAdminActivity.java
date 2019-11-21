@@ -5,10 +5,9 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
 
-public class CreateAccountAdmin extends AppCompatActivity {
+public class CreateAccountAdminActivity extends AppCompatActivity {
     private Button agreeAndRegister;
     private TextView SignIn;
     @Override
@@ -20,12 +19,12 @@ public class CreateAccountAdmin extends AppCompatActivity {
     }
 
     public void agreeAndRegisterButton(View view) {
-        Intent intent1= new Intent(CreateAccountAdmin.this,loginAsAdminActivity.class);
+        Intent intent1= new Intent(CreateAccountAdminActivity.this, LoginAdminActivity.class);
         startActivity(intent1);
     }
 
     public void SignIn(View view) {
-        Intent intent2= new Intent(CreateAccountAdmin.this,loginAsAdminActivity.class);
+        Intent intent2= new Intent(CreateAccountAdminActivity.this, LoginAdminActivity.class);
         startActivity(intent2);
     }
 }

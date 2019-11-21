@@ -24,7 +24,7 @@ public class notification extends AppCompatActivity {
     }
 
     public void no(View view) {
-        Intent intent2= new Intent(notification.this,activity_clinics_list.class);
+        Intent intent2= new Intent(notification.this, ClinicsListActivity.class);
         startActivity(intent2);
     }
 }

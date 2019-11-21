@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class bookingConfirmationActivity extends AppCompatActivity {
+public class BookingConfirmationActivity extends AppCompatActivity {
     private Button CancelAppointment;
 
     @Override
@@ -17,7 +17,7 @@ public class bookingConfirmationActivity extends AppCompatActivity {
     }
 
     public void CancelAppointment(View view) {
-        Intent intent1 = new Intent(bookingConfirmationActivity.this, activity_show_appointments.class);
+        Intent intent1 = new Intent(BookingConfirmationActivity.this, ShowAppointmentsActivity.class);
         startActivity(intent1);
     }
 }

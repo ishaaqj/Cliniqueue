@@ -6,18 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class activity_show_appointments extends AppCompatActivity {
-    private Button cancel;
+public class LoginAdminActivity extends AppCompatActivity {
+    private Button login;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_show_appointments);
-        cancel = (Button)findViewById(R.id.cancel);
+        setContentView(R.layout.activity_login_as_admin);
+        login = (Button)findViewById(R.id.login);
     }
 
-    public void cancel(View view) {
-        Intent intent1 = new Intent(activity_show_appointments.this, cancellation_confirmation_page.class);
+    public void login(View view) {
+        Intent intent1= new Intent(LoginAdminActivity.this, ClinicRequestsActivity.class);
         startActivity(intent1);
     }
 }

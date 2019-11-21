@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="@drawable/bluetolightblue"
     android:orientation="vertical"
-    tools:context=".activity_clinics_list"
+    tools:context=".ClinicsListActivity"
     android:weightSum="1">
 
     <TextView

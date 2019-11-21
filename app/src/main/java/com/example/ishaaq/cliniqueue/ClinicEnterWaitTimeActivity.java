@@ -5,9 +5,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-public class clinic_enter_wait_time extends AppCompatActivity {
+public class ClinicEnterWaitTimeActivity extends AppCompatActivity {
     private Button confirmWaitTime;
 
 
@@ -18,7 +17,7 @@ public class clinic_enter_wait_time extends AppCompatActivity {
         confirmWaitTime = (Button)findViewById(R.id.confirmWaitTime);
     }
     public void setConfirmWaitTime(View view) {
-        Intent intent1= new Intent(clinic_enter_wait_time.this,clinic_requests.class);
+        Intent intent1= new Intent(ClinicEnterWaitTimeActivity.this, ClinicRequestsActivity.class);
         startActivity(intent1);
     }
 }

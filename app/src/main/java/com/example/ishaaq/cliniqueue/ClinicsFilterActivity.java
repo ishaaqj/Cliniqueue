@@ -6,18 +6,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class activity_Clinics_Filter extends AppCompatActivity {
+public class ClinicsFilterActivity extends AppCompatActivity {
     private Button filter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity__clinics__filter);
+        setContentView(R.layout.activity_booking_confirmation);
         filter = (Button)findViewById(R.id.filter);
     }
 
     public void filter(View view) {
-        Intent intent1= new Intent(activity_Clinics_Filter.this,notification.class);
+        Intent intent1= new Intent(ClinicsFilterActivity.this,notification.class);
         startActivity(intent1);
     }
 }

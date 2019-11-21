@@ -7,6 +7,7 @@
          location permissions for the 'MyLocation' functionality.
     -->
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
 
     <application
         android:allowBackup="true"
@@ -15,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".activity_show_appointments"></activity>
+        <activity android:name=".ShowAppointmentsActivity"></activity>
         <activity android:name=".notification" />
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
@@ -32,27 +33,27 @@
         <activity
             android:name=".Map"
             android:label="@string/title_activity_map" />
-        <activity android:name=".loginActivity" />
-        <activity android:name=".contactClinicActivity" />
+        <activity android:name=".PatientLoginActivity" />
+        <activity android:name=".ClientDetailsActivity" />
+        <activity android:name=".ContactClinicActivity" />
         <activity android:name=".waitingForConfirmationActivity" />
-        <activity android:name=".createAccountUserActivity">
+        <activity android:name=".CreateAccountUserActivity">
             <intent-filter>
                 <action android:name="com.example.ishaaq.cliniqueue" />
-
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-        <activity android:name=".xtraDetailsActivity" />
-        <activity android:name=".bookingConfirmationActivity" />
-        <activity android:name=".loginAsAdminActivity" />
-        <activity android:name=".homepageActivity">
+        <activity android:name=".ExtraDetailsActivity" />
+        <activity android:name=".BookingConfirmationActivity" />
+        <activity android:name=".LoginAdminActivity" />
+        <activity android:name=".HomepageActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".reasonForVisitActivity" />
+        <activity android:name=".ReasonForVisitActivity" />
     </application>
 
 </manifest>

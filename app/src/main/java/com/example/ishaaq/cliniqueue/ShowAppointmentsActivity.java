@@ -6,18 +6,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class activity_clinics_list extends AppCompatActivity {
-    private Button Filter;
+public class ShowAppointmentsActivity extends AppCompatActivity {
+    private Button cancel;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_clinics_list);
-        Filter = (Button)findViewById(R.id.Filter);
+        setContentView(R.layout.activity_booking_confirmation);
+        cancel = (Button)findViewById(R.id.cancel);
     }
 
-    public void Filter(View view) {
-        Intent intent1= new Intent(activity_clinics_list.this,activity_Clinics_Filter.class);
+    public void cancel(View view) {
+        Intent intent1 = new Intent(ShowAppointmentsActivity.this, cancellation_confirmation_page.class);
         startActivity(intent1);
     }
 }

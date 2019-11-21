@@ -13,7 +13,7 @@ public class cancellation_confirmation_page extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cancellation_confirmation_page);
+        setContentView(R.layout.activity_booking_confirmation);
         Yes = (Button)findViewById(R.id.Yes);
         No = (Button)findViewById(R.id.No);
     }
@@ -24,7 +24,7 @@ public class cancellation_confirmation_page extends AppCompatActivity {
     }
 
     public void No(View view) {
-        Intent intent2= new Intent(cancellation_confirmation_page.this,activity_show_appointments.class);
+        Intent intent2= new Intent(cancellation_confirmation_page.this, ShowAppointmentsActivity.class);
         startActivity(intent2);
     }
 }

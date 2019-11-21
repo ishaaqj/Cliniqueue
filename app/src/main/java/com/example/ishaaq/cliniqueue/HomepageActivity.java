@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class homepageActivity extends AppCompatActivity {
+public class HomepageActivity extends AppCompatActivity {
     private Button button14;
     private Button button13;
     private Button button12;
@@ -21,7 +21,7 @@ public class homepageActivity extends AppCompatActivity {
         button14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(homepageActivity.this,createAccountUserActivity .class);
+                Intent intent1= new Intent(HomepageActivity.this, CreateAccountUserActivity.class);
                 startActivity(intent1);
             }
         });
@@ -30,7 +30,7 @@ public class homepageActivity extends AppCompatActivity {
         button12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent2= new Intent(homepageActivity.this,loginActivity .class);
+                Intent intent2= new Intent(HomepageActivity.this, PatientLoginActivity.class);
                 startActivity(intent2);
             }
         });
@@ -40,7 +40,7 @@ public class homepageActivity extends AppCompatActivity {
         button13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent3= new Intent(homepageActivity.this,loginAsAdminActivity .class);
+                Intent intent3= new Intent(HomepageActivity.this, LoginAdminActivity.class);
                 startActivity(intent3);
             }
         });
@@ -50,7 +50,7 @@ public class homepageActivity extends AppCompatActivity {
         button15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent4= new Intent(homepageActivity.this,CreateAccountAdmin .class);
+                Intent intent4= new Intent(HomepageActivity.this, CreateAccountAdminActivity.class);
                 startActivity(intent4);
             }
         });
