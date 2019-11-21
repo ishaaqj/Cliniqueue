@@ -26,7 +26,7 @@ public class xtraDetailsActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(xtraDetailsActivity.this,client_details.class);
+                Intent intent1= new Intent(xtraDetailsActivity.this,waitingForConfirmationActivity.class);
                 string3=editText3.getText().toString();
                 intent1.putExtra("Value2",string3);
                 string4=editText4.getText().toString();

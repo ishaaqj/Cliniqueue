@@ -8,15 +8,15 @@ import android.widget.Button;
 
 public class contactClinicActivity extends AppCompatActivity {
 
-    private Button button88;
+    private Button BookAppointment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_clinic);
 
-        button88= (Button) findViewById(R.id.button88);
-        button88.setOnClickListener(new View.OnClickListener() {
+        BookAppointment= (Button) findViewById(R.id.BookAppointment);
+        BookAppointment.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent88= new Intent(contactClinicActivity.this,reasonForVisitActivity.class);

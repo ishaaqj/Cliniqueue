@@ -26,20 +26,22 @@
 
 
         <Button
-            android:id="@+id/button161"
+            android:id="@+id/Yes"
             android:layout_width="135dp"
             android:layout_height="88dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="100dp"
-            android:text="Yes" />
+            android:text="Yes"
+            android:onClick="Yes"/>
 
         <Button
-            android:id="@+id/button162"
+            android:id="@+id/No"
             android:layout_width="135dp"
             android:layout_height="85dp"
             android:layout_marginLeft="250dp"
             android:layout_marginTop="-90dp"
-            android:text="No" />
+            android:text="No"
+            android:onClick="No"/>
 
 
     </LinearLayout>

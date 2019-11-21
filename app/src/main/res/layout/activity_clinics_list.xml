@@ -90,8 +90,9 @@
         />
 
     <Button
-        android:id="@+id/button20"
+        android:id="@+id/Filter"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Filter" />
+        android:text="Add Filter"
+        android:onClick="Filter"/>
 </LinearLayout>

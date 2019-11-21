@@ -47,7 +47,7 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
     }
 
     public void showAppointmentsButton(View view) {
-        Intent intent4= new Intent(Map.this,contactClinicActivity .class);
+        Intent intent4= new Intent(Map.this,activity_clinics_list .class);
         startActivity(intent4);
     }
 

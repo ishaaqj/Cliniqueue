@@ -64,7 +64,8 @@
             android:background="@drawable/transparent_bg_bordered"
             android:text="Accept request"
             android:textColor="@color/white"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:onClick="accept"/>
 
         <Button
             android:id="@+id/decline"
@@ -76,7 +77,8 @@
             android:background="@drawable/transparent_bg_bordered"
             android:text="Decline request"
             android:textColor="@color/white"
-            android:textSize="20dp" />
+            android:textSize="20dp"
+            android:onClick="decline"/>
     </LinearLayout>
 
 
