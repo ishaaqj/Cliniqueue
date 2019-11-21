@@ -22,7 +22,7 @@ public class ExtraDetailsActivity extends AppCompatActivity {
         editText3=findViewById(R.id.editText8);
         editText4=findViewById(R.id.editText10);
 
-        button= (Button) findViewById(R.id.button);
+        button= (Button) findViewById(R.id.registerButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

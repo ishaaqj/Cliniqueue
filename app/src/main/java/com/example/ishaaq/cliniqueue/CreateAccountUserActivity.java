@@ -1,6 +1,7 @@
 package com.example.ishaaq.cliniqueue;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -11,12 +12,13 @@ import android.widget.Button;
 import android.widget.DatePicker;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.Calendar;
 
 public class CreateAccountUserActivity extends AppCompatActivity {
 
-    Button button;
+    Button registerButton;
     EditText editText1;
     String string1;
     TextView textView;
@@ -32,14 +34,21 @@ public class CreateAccountUserActivity extends AppCompatActivity {
         editText1=findViewById(R.id.editText);
 
 
-        button= (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+        registerButton= (Button) findViewById(R.id.registerButton);
+        registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent1= new Intent(CreateAccountUserActivity.this, PatientLoginActivity.class);
+                Context context = getApplicationContext();
+                CharSequence text = "You have succesfully registered";
+                int duration = Toast.LENGTH_SHORT;
+                Toast toast = Toast.makeText(context, text, duration);
                 string1=editText1.getText().toString();
                 intent1.putExtra("Value",string1);
                 startActivity(intent1);
+                toast.show();
             }
         });
 
