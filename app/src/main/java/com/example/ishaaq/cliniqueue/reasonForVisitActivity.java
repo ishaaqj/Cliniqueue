@@ -26,7 +26,7 @@ public class reasonForVisitActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reason_for_visit);
 
-        Button button1 = (Button)findViewById(R.id.button1);
+        Button allergicReaction = (Button)findViewById(R.id.allergiReaction);
         Button button2 = (Button)findViewById(R.id.button2);
         Button button3 = (Button)findViewById(R.id.button3);
         Button button4 = (Button)findViewById(R.id.button4);
@@ -39,10 +39,15 @@ public class reasonForVisitActivity extends AppCompatActivity {
         Button button11 = (Button)findViewById(R.id.button11);
 
 
-        button1.setOnClickListener(new View.OnClickListener() {
+        allergicReaction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(reasonForVisitActivity.this,xtraDetailsActivity.class);
+                startActivity(intent1);
+                String ar = "AllergicReaction";
+                intent1.putExtra("allergicReaction",ar);
+               // startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+
             }
         });
         button2.setOnClickListener(new View.OnClickListener() {
