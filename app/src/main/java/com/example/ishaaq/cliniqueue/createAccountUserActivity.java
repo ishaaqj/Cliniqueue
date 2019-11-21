@@ -19,7 +19,7 @@ import java.util.Calendar;
 public class createAccountUserActivity extends AppCompatActivity {
 
     Button button;
-    EditText editText1;
+    EditText userName;
     String string1;
     TextView textView;
 
@@ -31,7 +31,7 @@ public class createAccountUserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account_user);
 
-        editText1=findViewById(R.id.editText);
+        userName=findViewById(R.id.editText);
 
 
         button= (Button) findViewById(R.id.button);
@@ -39,7 +39,7 @@ public class createAccountUserActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent1= new Intent(createAccountUserActivity.this,loginActivity.class);
-                string1=editText1.getText().toString();
+                string1=userName.getText().toString();
                 intent1.putExtra("Value",string1);
                 startActivity(intent1);
             }

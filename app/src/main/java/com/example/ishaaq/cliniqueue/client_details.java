@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class client_details extends AppCompatActivity {
 
@@ -22,8 +23,9 @@ public class client_details extends AppCompatActivity {
         setContentView(R.layout.activity_client_details);
 
         textView1=findViewById(R.id.Name);
-        string1=getIntent().getExtras().getString("Value");
+        string1=getIntent().getExtras().getString("userName");
         textView1.setText(string1);
+        Toast.makeText(this, string1, Toast.LENGTH_SHORT).show();
 
         textView2=findViewById(R.id.reason);
         string2=getIntent().getExtras().getString("Value1");

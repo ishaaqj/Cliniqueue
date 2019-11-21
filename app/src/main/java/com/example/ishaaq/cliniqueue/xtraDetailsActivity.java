@@ -31,6 +31,8 @@ public class xtraDetailsActivity extends AppCompatActivity {
                 intent1.putExtra("Value2",string3);
                 string4=editText4.getText().toString();
                 intent1.putExtra("Value3",string4);
+               String string1=getIntent().getExtras().getString("Value");
+                intent1.putExtra("userName",string1);
                 startActivity(intent1);
             }
         });
