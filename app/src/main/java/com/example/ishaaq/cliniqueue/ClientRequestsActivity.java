@@ -6,7 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class ClinicRequestsActivity extends AppCompatActivity {
+public class ClientRequestsActivity extends AppCompatActivity {
     private TextView Abdelrahman;
     private TextView Nour;
     private TextView Tanisha;
@@ -26,32 +26,32 @@ public class ClinicRequestsActivity extends AppCompatActivity {
     }
 
     public void Abdelrahman(View view) {
-        Intent intent1= new Intent(ClinicRequestsActivity.this, ClientDetailsActivity.class);
+        Intent intent1= new Intent(ClientRequestsActivity.this, ClientDetailsActivity.class);
         startActivity(intent1);
     }
 
     public void Nour(View view) {
-        Intent intent2= new Intent(ClinicRequestsActivity.this, ClientDetailsActivity.class);
+        Intent intent2= new Intent(ClientRequestsActivity.this, ClientDetailsActivity.class);
         startActivity(intent2);
     }
 
     public void Tanisha(View view) {
-        Intent intent3= new Intent(ClinicRequestsActivity.this, ClientDetailsActivity.class);
+        Intent intent3= new Intent(ClientRequestsActivity.this, ClientDetailsActivity.class);
         startActivity(intent3);
     }
 
     public void Jimit(View view) {
-        Intent intent4= new Intent(ClinicRequestsActivity.this, ClientDetailsActivity.class);
+        Intent intent4= new Intent(ClientRequestsActivity.this, ClientDetailsActivity.class);
         startActivity(intent4);
     }
 
     public void Ishaaq(View view) {
-        Intent intent5= new Intent(ClinicRequestsActivity.this, ClientDetailsActivity.class);
+        Intent intent5= new Intent(ClientRequestsActivity.this, ClientDetailsActivity.class);
         startActivity(intent5);
     }
 
     public void Michael(View view) {
-        Intent intent6= new Intent(ClinicRequestsActivity.this, ClientDetailsActivity.class);
+        Intent intent6= new Intent(ClientRequestsActivity.this, ClientDetailsActivity.class);
         startActivity(intent6);
     }
 }

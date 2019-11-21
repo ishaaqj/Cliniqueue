@@ -12,7 +12,7 @@ public class ClinicsFilterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booking_confirmation);
+        setContentView(R.layout.activity_client_requests);
         filter = (Button)findViewById(R.id.filter);
     }
 

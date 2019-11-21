@@ -17,7 +17,7 @@ public class ClinicEnterWaitTimeActivity extends AppCompatActivity {
         confirmWaitTime = (Button)findViewById(R.id.confirmWaitTime);
     }
     public void setConfirmWaitTime(View view) {
-        Intent intent1= new Intent(ClinicEnterWaitTimeActivity.this, ClinicRequestsActivity.class);
+        Intent intent1= new Intent(ClinicEnterWaitTimeActivity.this, ClientRequestsActivity.class);
         startActivity(intent1);
     }
 }

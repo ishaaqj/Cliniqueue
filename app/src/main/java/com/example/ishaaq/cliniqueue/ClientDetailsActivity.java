@@ -53,7 +53,7 @@ public class ClientDetailsActivity extends AppCompatActivity {
     }
 
     public void decline(View view) {
-        Intent intent2= new Intent(ClientDetailsActivity.this, ClinicRequestsActivity.class);
+        Intent intent2= new Intent(ClientDetailsActivity.this, ClientRequestsActivity.class);
         startActivity(intent2);
     }
 }
