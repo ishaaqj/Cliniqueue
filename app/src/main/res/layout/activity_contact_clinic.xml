@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bluetolightblue"
-    tools:context=".contactClinicActivity">
+    tools:context=".ContactClinicActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,6 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="70dp"
             android:gravity="center"
+            android:layout_gravity="center"
             android:text="UOttawa Health Services"
             android:textColor="#FFFFFF"
             android:textSize="32sp"
@@ -56,28 +57,30 @@
             android:textSize="20sp" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/callButton"
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:background="@drawable/transparent_bg_bordered"
             android:text="Call Clinic"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="call"/>
 
         <Button
-            android:id="@+id/button88"
+            android:id="@+id/BookAppointment"
             android:layout_width="350dp"
             android:layout_height="70dp"
-            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:background="@drawable/transparent_bg_bordered"
             android:text="Book Appointment"
             android:textColor="@color/white"
             android:textSize="20sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:onClick="BookAppointment"/>
 
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -3,10 +3,14 @@ package com.example.ishaaq.cliniqueue;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class client_details extends AppCompatActivity {
+public class ClientDetailsActivity extends AppCompatActivity {
+    private Button accept;
+    private Button decline;
 
     TextView textView1;
     String string1;
@@ -20,7 +24,9 @@ public class client_details extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_client_details);
+        setContentView(R.layout.activity_booking_confirmation);
+        accept = (Button)findViewById(R.id.accept);
+        decline =(Button)findViewById(R.id.decline);
 
         textView1=findViewById(R.id.Name);
         string1=getIntent().getExtras().getString("userName");
@@ -41,5 +47,15 @@ public class client_details extends AppCompatActivity {
 
 
 
+    }
+
+    public void accept(View view) {
+        Intent intent1= new Intent(ClientDetailsActivity.this, ClinicEnterWaitTimeActivity.class);
+        startActivity(intent1);
+    }
+
+    public void decline(View view) {
+        Intent intent2= new Intent(ClientDetailsActivity.this, ClientRequestsActivity.class);
+        startActivity(intent2);
     }
 }

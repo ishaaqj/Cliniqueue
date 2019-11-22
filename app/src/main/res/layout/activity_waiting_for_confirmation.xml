@@ -16,7 +16,7 @@
             android:id="@+id/confirmBooking"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="30dp"
+            android:layout_gravity="center"
             android:layout_marginTop="250dp"
             android:background="@drawable/transparent_button"
             android:text="PLEASE CONFIRM"
@@ -41,11 +41,11 @@
             android:layout_height="wrap_content"
             android:id="@+id/progressBar"
             android:indeterminateDrawable="@drawable/circular_progress_bar"
-            android:layout_below="@+id/button"
+            android:layout_below="@+id/registerButton"
             android:layout_alignRight="@+id/textView"
             android:layout_alignEnd="@+id/textView"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="150dp"
+            android:layout_gravity="center"
             android:layout_marginTop="50dp"
             android:visibility="invisible"/>
     </LinearLayout>

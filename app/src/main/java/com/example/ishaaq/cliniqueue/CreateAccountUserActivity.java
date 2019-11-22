@@ -1,6 +1,7 @@
 package com.example.ishaaq.cliniqueue;
 
 import android.app.DatePickerDialog;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
@@ -13,13 +14,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.security.PrivateKey;
 import java.util.Calendar;
 
-public class createAccountUserActivity extends AppCompatActivity {
+public class CreateAccountUserActivity extends AppCompatActivity {
 
-    Button button;
-    EditText userName;
+    Button registerButton;
+    EditText editText1;
     String string1;
     TextView textView;
 
@@ -31,17 +31,24 @@ public class createAccountUserActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account_user);
 
-        userName=findViewById(R.id.editText);
+        editText1=findViewById(R.id.editText);
 
 
-        button= (Button) findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+
+
+        registerButton= (Button) findViewById(R.id.registerButton);
+        registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(createAccountUserActivity.this,xtraDetailsActivity.class);
-                string1=userName.getText().toString();
+                Intent intent1= new Intent(CreateAccountUserActivity.this, PatientLoginActivity.class);
+                Context context = getApplicationContext();
+                CharSequence text = "You have succesfully registered";
+                int duration = Toast.LENGTH_SHORT;
+                Toast toast = Toast.makeText(context, text, duration);
+                string1=editText1.getText().toString();
                 intent1.putExtra("Value",string1);
                 startActivity(intent1);
+                toast.show();
             }
         });
 
@@ -49,7 +56,7 @@ public class createAccountUserActivity extends AppCompatActivity {
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent= new Intent(createAccountUserActivity.this,loginActivity.class);
+                Intent intent= new Intent(CreateAccountUserActivity.this, PatientLoginActivity.class);
                 startActivity(intent);
 
             }
@@ -64,7 +71,7 @@ public class createAccountUserActivity extends AppCompatActivity {
                 int month = cal.get(Calendar.MONTH);
                 int day = cal.get(Calendar.DAY_OF_MONTH);
 
-                DatePickerDialog dialog = new DatePickerDialog(createAccountUserActivity.this,
+                DatePickerDialog dialog = new DatePickerDialog(CreateAccountUserActivity.this,
                         android.R.style.Theme_Holo_Light,
                         mDateSetlistener, year, month, day);
                 dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));

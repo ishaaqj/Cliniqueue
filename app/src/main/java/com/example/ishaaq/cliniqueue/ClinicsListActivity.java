@@ -5,20 +5,19 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
 
-public class loginAsAdminActivity extends AppCompatActivity {
-    private Button login;
+public class ClinicsListActivity extends AppCompatActivity {
+    private Button Filter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_as_admin);
-        login = (Button)findViewById(R.id.login);
+        setContentView(R.layout.activity_clinics_list);
+        Filter = (Button)findViewById(R.id.Filter);
     }
 
-    public void login(View view) {
-        Intent intent1= new Intent(loginAsAdminActivity.this,clinic_requests.class);
+    public void Filter(View view) {
+        Intent intent1= new Intent(ClinicsListActivity.this, ClinicsFilterActivity.class);
         startActivity(intent1);
     }
 }

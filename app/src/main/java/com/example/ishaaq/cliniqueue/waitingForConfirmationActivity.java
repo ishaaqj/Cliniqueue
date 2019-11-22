@@ -9,8 +9,6 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class waitingForConfirmationActivity extends AppCompatActivity {
 
     Button button2;
@@ -29,7 +27,7 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(waitingForConfirmationActivity.this,bookingConfirmationActivity.class);
+                Intent intent1= new Intent(waitingForConfirmationActivity.this, BookingConfirmationActivity.class);
                 startActivity(intent1);
             }
         });
@@ -45,7 +43,7 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
         handler.postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent myIntent = new Intent(view.getContext(), bookingConfirmationActivity.class);
+                Intent myIntent = new Intent(view.getContext(), BookingConfirmationActivity.class);
                 startActivityForResult(myIntent, 0);
             }
         }, 3000);
