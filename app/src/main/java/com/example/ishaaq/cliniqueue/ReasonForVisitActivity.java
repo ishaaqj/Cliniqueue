@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class reasonForVisitActivity extends AppCompatActivity {
+public class ReasonForVisitActivity extends AppCompatActivity {
 
     String string1;
 
@@ -27,22 +27,23 @@ public class reasonForVisitActivity extends AppCompatActivity {
         setContentView(R.layout.activity_reason_for_visit);
 
         Button allergicReaction = (Button)findViewById(R.id.allergiReaction);
-        Button button2 = (Button)findViewById(R.id.button2);
-        Button button3 = (Button)findViewById(R.id.button3);
-        Button button4 = (Button)findViewById(R.id.button4);
-        Button button5 = (Button)findViewById(R.id.button5);
-        Button button6 = (Button)findViewById(R.id.button6);
-        Button button7 = (Button)findViewById(R.id.button7);
-        Button button8 = (Button)findViewById(R.id.button8);
-        Button button9 = (Button)findViewById(R.id.button9);
-        Button button10 = (Button)findViewById(R.id.button10);
-        Button button11 = (Button)findViewById(R.id.button11);
+        Button button2 = (Button)findViewById(R.id.skinDisorder);
+        Button button3 = (Button)findViewById(R.id.vaccination);
+        Button button4 = (Button)findViewById(R.id.jointDisorder);
+        Button button5 = (Button)findViewById(R.id.backProblems);
+        Button button6 = (Button)findViewById(R.id.cholestrolProblems);
+        Button button7 = (Button)findViewById(R.id.diabeticPatient);
+        Button button8 = (Button)findViewById(R.id.cutStitches);
+        Button button9 = (Button)findViewById(R.id.bloodpressure);
+        Button button10 = (Button)findViewById(R.id.mentalhealth);
+        Button button11 = (Button)findViewById(R.id.headaches);
+        Button button12 = (Button)findViewById(R.id.others);
 
 
         allergicReaction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1= new Intent(reasonForVisitActivity.this,xtraDetailsActivity.class);
+                Intent intent1= new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class);
                 startActivity(intent1);
                 String ar = "AllergicReaction";
                 intent1.putExtra("allergicReaction",ar);
@@ -53,61 +54,61 @@ public class reasonForVisitActivity extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
         button11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                startActivity(new Intent(ReasonForVisitActivity.this, ExtraDetailsActivity.class));
             }
         });
 
