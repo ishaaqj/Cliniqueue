@@ -43,7 +43,7 @@
             android:textSize="15dp"/>
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/skinDisorder"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -56,7 +56,7 @@
             tools:layout_editor_absoluteY="122dp" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/vaccination"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -69,7 +69,7 @@
             tools:layout_editor_absoluteY="163dp" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/jointDisorder"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -82,7 +82,7 @@
             tools:layout_editor_absoluteY="204dp" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/backProblems"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -95,7 +95,7 @@
             tools:layout_editor_absoluteY="245dp" />
 
         <Button
-            android:id="@+id/button6"
+            android:id="@+id/cholestrolProblems"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -107,7 +107,7 @@
             tools:layout_editor_absoluteX="12dp"
             tools:layout_editor_absoluteY="286dp" />
         <Button
-            android:id="@+id/button7"
+            android:id="@+id/diabeticPatient"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:text="Diabetic Patient"
@@ -119,7 +119,7 @@
             android:textColor="@color/white"
             android:textSize="15dp"/>
         <Button
-            android:id="@+id/button8"
+            android:id="@+id/cutStitches"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:text="Cut/Stitches"
@@ -132,7 +132,7 @@
             android:textSize="15dp"/>
 
         <Button
-            android:id="@+id/button9"
+            android:id="@+id/bloodpressure"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -145,7 +145,7 @@
             tools:layout_editor_absoluteY="409dp" />
 
         <Button
-            android:id="@+id/button10"
+            android:id="@+id/mentalhealth"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -158,7 +158,7 @@
             tools:layout_editor_absoluteY="450dp" />
 
         <Button
-            android:id="@+id/button11"
+            android:id="@+id/headaches"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
@@ -171,7 +171,7 @@
             tools:layout_editor_absoluteY="491dp" />
 
         <Button
-            android:id="@+id/button12"
+            android:id="@+id/others"
             android:layout_width="361dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"

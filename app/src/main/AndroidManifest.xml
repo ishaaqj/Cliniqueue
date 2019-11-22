@@ -53,6 +53,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".reasonForVisitActivity" />
+        <activity android:name=".client_details"/>
     </application>
 
 </manifest>

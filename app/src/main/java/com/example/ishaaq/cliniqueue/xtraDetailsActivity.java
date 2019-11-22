@@ -33,6 +33,8 @@ public class xtraDetailsActivity extends AppCompatActivity {
                 intent1.putExtra("Value3",string4);
                String string1=getIntent().getExtras().getString("Value");
                 intent1.putExtra("userName",string1);
+                String reasonForVisit = getIntent().getExtras().getString("reason");
+                intent1.putExtra("reasonForVisit",reasonForVisit);
                 startActivity(intent1);
             }
         });

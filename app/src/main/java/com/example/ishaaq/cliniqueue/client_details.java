@@ -25,10 +25,10 @@ public class client_details extends AppCompatActivity {
         textView1=findViewById(R.id.Name);
         string1=getIntent().getExtras().getString("userName");
         textView1.setText(string1);
-        Toast.makeText(this, string1, Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, string1, Toast.LENGTH_SHORT).show();
 
         textView2=findViewById(R.id.reason);
-        string2=getIntent().getExtras().getString("Value1");
+        string2=getIntent().getExtras().getString("reasonForVisit");
         textView2.setText(string2);
 
         textView3=findViewById(R.id.symptoms);
