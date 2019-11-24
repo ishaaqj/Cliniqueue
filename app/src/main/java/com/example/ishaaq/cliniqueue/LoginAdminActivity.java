@@ -7,16 +7,16 @@ import android.view.View;
 import android.widget.Button;
 
 public class LoginAdminActivity extends AppCompatActivity {
-    private Button login;
+    private Button login1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_as_admin);
-        login = (Button)findViewById(R.id.login);
+        login1 = (Button)findViewById(R.id.login);
     }
 
-    public void login(View view) {
+    public void loginAsAdmin(View view) {
         Intent intent1= new Intent(LoginAdminActivity.this,ClientRequestsActivity.class);
         startActivity(intent1);
     }

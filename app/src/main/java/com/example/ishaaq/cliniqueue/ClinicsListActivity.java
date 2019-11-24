@@ -10,20 +10,30 @@ import android.widget.Button;
 public class ClinicsListActivity extends Activity {
     private Button Filter;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clinics_list);
         Filter = (Button)findViewById(R.id.Filter);
+
+        Filter.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent1= new Intent(ClinicsListActivity.this, ClinicsFilterActivity.class);
+                startActivity(intent1);
+
+            }
+        });
+
+
     }
 
-    public void Filter(View view) {
-        Intent intent1= new Intent(ClinicsListActivity.this, ClinicsFilterActivity.class);
-        startActivity(intent1);
-    }
+
 
     public void openReasonForVisit(View view) {
-        Intent intent1= new Intent(ClinicsListActivity.this, ReasonForVisitActivity.class);
+        Intent intent1= new Intent(ClinicsListActivity.this, ContactClinicActivity.class);
         startActivity(intent1);
     }
 }

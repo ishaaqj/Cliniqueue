@@ -9,37 +9,51 @@ import android.view.View;
 import android.widget.Button;
 
 public class BookingConfirmationActivity extends AppCompatActivity {
+    Button showAppointment;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking_confirmation);
-        Button CancelAppointment;
-        CancelAppointment = findViewById(R.id.CancelAppointment);
+        showAppointment = findViewById(R.id.Appointment);
 
-    }
-
-    public void CancelAppointment(View view) {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setCancelable(true);
-        builder.setTitle("Cancel Appointment?");
-        builder.setMessage("Are you sure you want to cancel you appointment?");
-        builder.setPositiveButton("Yes",
-                new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        Intent intent1 = new Intent(BookingConfirmationActivity.this, Map.class);
-                        startActivity(intent1);
-                    }
-                });
-        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+        showAppointment.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Intent intent1 = new Intent(BookingConfirmationActivity.this, BookingConfirmationActivity.class);
+            public void onClick(View view) {
+                Intent intent1 = new Intent(BookingConfirmationActivity.this, ShowAppointmentsActivity.class);
                 startActivity(intent1);
             }
         });
-        AlertDialog dialog = builder.create();
-        dialog.show();
+
     }
+
+
+
+    //public void Appointment(View view) {
+//        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+//        builder.setCancelable(true);
+//        builder.setTitle("Cancel Appointment?");
+//        builder.setMessage("Are you sure you want to cancel you appointment?");
+//        builder.setPositiveButton("Yes",
+//                new DialogInterface.OnClickListener() {
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        Intent intent1 = new Intent(BookingConfirmationActivity.this, ShowAppointmentsActivity.class);
+//                        startActivity(intent1);
+//                    }
+//                });
+//        builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
+//            @Override
+//            public void onClick(DialogInterface dialog, int which) {
+//                Intent intent1 = new Intent(BookingConfirmationActivity.this, BookingConfirmationActivity.class);
+//                startActivity(intent1);
+//            }
+//        });
+//        AlertDialog dialog = builder.create();
+//        dialog.show();
+
+//        Intent intent1 = new Intent(BookingConfirmationActivity.this, ShowAppointmentsActivity.class);
+//        startActivity(intent1);
+//    }
+
 }
