@@ -67,11 +67,12 @@
             android:layout_marginTop="30dp"
             android:layout_marginBottom="64dp"
             android:background="@drawable/transparent_button"
-            android:enabled="false"
+            android:enabled="true"
             android:text="SIGN IN AS ADMIN"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:onClick="login" />
+            android:onClick="loginAsAdmin"
+            android:clickable="true"/>
 
     </LinearLayout>
 

@@ -40,7 +40,7 @@ public class CreateAccountUserActivity extends AppCompatActivity {
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent1= new Intent(CreateAccountUserActivity.this, ReasonForVisitActivity.class);
+                Intent intent1= new Intent(CreateAccountUserActivity.this, PatientLoginActivity.class);
                 Context context = getApplicationContext();
                 CharSequence text = "You have succesfully registered";
                 int duration = Toast.LENGTH_SHORT;

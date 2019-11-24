@@ -36,13 +36,13 @@
             android:textSize="20dp" />
 
         <Button
-            android:id="@+id/CancelAppointment"
+            android:id="@+id/Appointment"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:text="Cancel Appointment"
-            android:onClick="CancelAppointment"/>
+            android:text="Appointment"
+            />
 
     </LinearLayout>
 
