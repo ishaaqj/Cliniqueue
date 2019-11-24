@@ -1,8 +1,10 @@
 package com.example.ishaaq.cliniqueue;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
@@ -47,12 +49,12 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
     }
 
     public void showAppointmentsButton(View view) {
-        Intent intent4= new Intent(Map.this, ClinicsListActivity.class);
+        Intent intent4= new Intent(Map.this, ShowAppointmentsActivity.class);
         startActivity(intent4);
     }
 
     public void showClinicsListButton(View view) {
-        Intent intent4= new Intent(Map.this, ShowAppointmentsActivity.class);
+        Intent intent4= new Intent(Map.this, ClinicsListActivity.class);
         startActivity(intent4);
     }
 }

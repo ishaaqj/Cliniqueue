@@ -3,10 +3,11 @@ package com.example.ishaaq.cliniqueue;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.Button;
 
-public class PatientLoginActivity extends Activity {
+public class PatientLoginActivity extends Activity  {
     private Button button2;
 
     @Override
@@ -22,6 +23,7 @@ public class PatientLoginActivity extends Activity {
                 startActivity(intent1);
             }
         });
+
         /*final Button button = findViewById(R.id.buttonLogin);
         button.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {

@@ -48,7 +48,7 @@
         <activity android:name=".notification" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="3" />
+            android:value="AIzaSyBF-VwfDysulHt6GaaWDHrcL0X4hu_yec0" />
     </application>
 
 </manifest>
