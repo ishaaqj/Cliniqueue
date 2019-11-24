@@ -12,6 +12,12 @@ public class ExtraDetailsActivity extends AppCompatActivity {
     String string3;
     EditText editText4;
     String string4;
+    EditText editText5;
+    String string5;
+    EditText editText6;
+    String string6;
+    EditText editText7;
+    String string7;
     private Button button;
 
     @Override
@@ -21,6 +27,9 @@ public class ExtraDetailsActivity extends AppCompatActivity {
 
         editText3=findViewById(R.id.editText8);
         editText4=findViewById(R.id.editText10);
+        editText5=findViewById(R.id.editText9);
+        editText6=findViewById(R.id.editText11);
+        editText7=findViewById(R.id.editText12);
 
         button= (Button) findViewById(R.id.registerButton);
         button.setOnClickListener(new View.OnClickListener() {
@@ -29,8 +38,14 @@ public class ExtraDetailsActivity extends AppCompatActivity {
                 Intent intent1= new Intent(ExtraDetailsActivity.this,waitingForConfirmationActivity.class);
                 string3=editText3.getText().toString();
                 intent1.putExtra("Value2",string3);
+                string5=editText5.getText().toString();
+                intent1.putExtra("Value5",string5);
                 string4=editText4.getText().toString();
                 intent1.putExtra("Value3",string4);
+                string6=editText4.getText().toString();
+                intent1.putExtra("Value6",string6);
+                string7=editText4.getText().toString();
+                intent1.putExtra("Value7",string7);
                String string1=getIntent().getExtras().getString("Value");
                 intent1.putExtra("userName",string1);
                 String reasonForVisit = getIntent().getExtras().getString("reason");

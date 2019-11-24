@@ -20,6 +20,12 @@ public class ClientDetailsActivity extends AppCompatActivity {
     String string3;
     TextView textView4;
     String string4;
+    TextView textView5;
+    String string5;
+    TextView textView6;
+    String string6;
+    TextView textView7;
+    String string7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +50,18 @@ public class ClientDetailsActivity extends AppCompatActivity {
         textView4=findViewById(R.id.allergies);
         string4=getIntent().getExtras().getString("Value3");
         textView4.setText(string4);
+
+        textView5=findViewById(R.id.History);
+        string5=getIntent().getExtras().getString("Value5");
+        textView5.setText(string5);
+
+        textView6=findViewById(R.id.allergies);
+        string6=getIntent().getExtras().getString("Value6");
+        textView6.setText(string6);
+
+        textView7=findViewById(R.id.allergies);
+        string7=getIntent().getExtras().getString("Value7");
+        textView7.setText(string7);
 
 
 

@@ -17,7 +17,7 @@ public class LoginAdminActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
-        Intent intent1= new Intent(LoginAdminActivity.this, ClientRequestsActivity.class);
+        Intent intent1= new Intent(LoginAdminActivity.this,ClientRequestsActivity.class);
         startActivity(intent1);
     }
 }
