@@ -14,7 +14,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class reasonForVisitActivity extends AppCompatActivity {
+public class ReasonForVisitActivity extends AppCompatActivity {
 
     String string1;
 
@@ -27,87 +27,138 @@ public class reasonForVisitActivity extends AppCompatActivity {
         setContentView(R.layout.activity_reason_for_visit);
 
         Button allergicReaction = (Button)findViewById(R.id.allergiReaction);
-        Button button2 = (Button)findViewById(R.id.button2);
-        Button button3 = (Button)findViewById(R.id.button3);
-        Button button4 = (Button)findViewById(R.id.button4);
-        Button button5 = (Button)findViewById(R.id.button5);
-        Button button6 = (Button)findViewById(R.id.button6);
-        Button button7 = (Button)findViewById(R.id.button7);
-        Button button8 = (Button)findViewById(R.id.button8);
-        Button button9 = (Button)findViewById(R.id.button9);
-        Button button10 = (Button)findViewById(R.id.button10);
-        Button button11 = (Button)findViewById(R.id.button11);
+        Button skinDisorder = (Button)findViewById(R.id.skinDisorder);
+        Button vaccination = (Button)findViewById(R.id.vaccination);
+        Button jointDisorder = (Button)findViewById(R.id.jointDisorder);
+        Button backProblems = (Button)findViewById(R.id.backProblems);
+        Button cholestrolProblems = (Button)findViewById(R.id.cholestrolProblems);
+        Button diabeticPatient = (Button)findViewById(R.id.diabeticPatient);
+        Button cutStitches = (Button)findViewById(R.id.cutStitches);
+        Button bloodpressure = (Button)findViewById(R.id.bloodpressure);
+        Button mentalhealth = (Button)findViewById(R.id.mentalhealth);
+        Button headaches = (Button)findViewById(R.id.headaches);
 
 
         allergicReaction.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1= new Intent(reasonForVisitActivity.this,xtraDetailsActivity.class);
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Allergic Reaction";
+                intent1.putExtra("reasonForVisit",ar);
                 startActivity(intent1);
-                String ar = "AllergicReaction";
-                intent1.putExtra("allergicReaction",ar);
                // startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
 
             }
         });
-        button2.setOnClickListener(new View.OnClickListener() {
+        skinDisorder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Skin Disorder";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+                //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button3.setOnClickListener(new View.OnClickListener() {
+        vaccination.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Vaccination";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+                //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button4.setOnClickListener(new View.OnClickListener() {
+        jointDisorder.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Joint Disorder";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+               // startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button5.setOnClickListener(new View.OnClickListener() {
+        backProblems.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Back Problems";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+                //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button6.setOnClickListener(new View.OnClickListener() {
+        cholestrolProblems.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Cholestrol Problems";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+                //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button7.setOnClickListener(new View.OnClickListener() {
+        diabeticPatient.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Diabetic Patient";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+              //  startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button8.setOnClickListener(new View.OnClickListener() {
+        cutStitches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Cut Stitches";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+               // startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button9.setOnClickListener(new View.OnClickListener() {
+        bloodpressure.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Blood Pressure";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+                //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button10.setOnClickListener(new View.OnClickListener() {
+        mentalhealth.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Mental Health";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+                //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
-        button11.setOnClickListener(new View.OnClickListener() {
+        headaches.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
+                Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
+
+                String ar = "Headaches and Migrains";
+                intent1.putExtra("reasonForVisit",ar);
+                startActivity(intent1);
+                //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));
             }
         });
 
