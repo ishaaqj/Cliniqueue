@@ -42,9 +42,9 @@ public class ExtraDetailsActivity extends AppCompatActivity {
                 intent1.putExtra("Value5",string5);
                 string4=editText4.getText().toString();
                 intent1.putExtra("Value3",string4);
-                string6=editText4.getText().toString();
+                string6=editText6.getText().toString();
                 intent1.putExtra("Value6",string6);
-                string7=editText4.getText().toString();
+                string7=editText7.getText().toString();
                 intent1.putExtra("Value7",string7);
                String string1=getIntent().getExtras().getString("Value");
                 intent1.putExtra("userName",string1);
