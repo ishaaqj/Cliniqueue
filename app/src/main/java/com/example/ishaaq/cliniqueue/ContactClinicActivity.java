@@ -10,8 +10,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class ContactClinicActivity extends AppCompatActivity {
+
+    TextView textView1;
+    String string1;
 
     private Button BookAppointment;
     private Button CallClinicButton;
@@ -23,6 +27,10 @@ public class ContactClinicActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_contact_clinic);
+
+        textView1=findViewById(R.id.clinicName);
+        string1=getIntent().getExtras().getString("ClinicName");
+        textView1.setText(string1);
 
         CallClinicButton = (Button) findViewById(R.id.callButton);
         BookAppointment= (Button) findViewById(R.id.BookAppointment);

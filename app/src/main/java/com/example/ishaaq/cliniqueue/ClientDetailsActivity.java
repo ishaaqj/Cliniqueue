@@ -55,11 +55,11 @@ public class ClientDetailsActivity extends AppCompatActivity {
         string5=getIntent().getExtras().getString("Value5");
         textView5.setText(string5);
 
-        textView6=findViewById(R.id.allergies);
+        textView6=findViewById(R.id.Age);
         string6=getIntent().getExtras().getString("Value6");
         textView6.setText(string6);
 
-        textView7=findViewById(R.id.allergies);
+        textView7=findViewById(R.id.Weight);
         string7=getIntent().getExtras().getString("Value7");
         textView7.setText(string7);
 
