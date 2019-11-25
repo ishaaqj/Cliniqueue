@@ -67,11 +67,6 @@ public class ExtraDetailsActivity extends AppCompatActivity {
                 intent1.putExtra("Value7",string7);
                 globalvariables.setWeight(string7);
 
-               /* String string1=getIntent().getExtras().getString("Value");
-                intent1.putExtra("userName",string1);
-                String reasonForVisit = getIntent().getExtras().getString("reason");
-                intent1.putExtra("reasonForVisit",reasonForVisit);*/
-
                 startActivity(intent1);
             }
         });
