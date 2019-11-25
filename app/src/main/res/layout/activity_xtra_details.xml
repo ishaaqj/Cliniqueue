@@ -7,6 +7,9 @@
     android:fitsSystemWindows="true"
     tools:context=".ExtraDetailsActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -147,5 +150,5 @@
             android:textSize="20dp" />
 
     </LinearLayout>
-
+    </ScrollView>
 </android.support.constraint.ConstraintLayout>
