@@ -14,8 +14,8 @@ public class notification extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_notification);
-        yes = (Button)findViewById(R.id.yes);
-        no = (Button)findViewById(R.id.no);
+        yes = findViewById(R.id.yes);
+        no = findViewById(R.id.no);
     }
 
     public void yes(View view) {

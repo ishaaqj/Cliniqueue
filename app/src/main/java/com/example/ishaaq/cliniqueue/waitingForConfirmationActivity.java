@@ -31,11 +31,13 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
     ProgressBar progressbar;
     Button confirm;
     TextView showBooking;
+    MyGlobalVariables g;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        g = MyGlobalVariables.getInstance();
         setContentView(R.layout.activity_waiting_for_confirmation);
 
         textView1=findViewById(R.id.Name);
@@ -44,8 +46,8 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
         //Toast.makeText(this, string1, Toast.LENGTH_SHORT).show();
 
         textView2=findViewById(R.id.reason);
-        string2=getIntent().getExtras().getString("reasonForVisit");
-        textView2.setText(string2);
+       // string2=getIntent().getExtras().getString("reasonForVisit");
+        textView2.setText(g.getReasonForVisit());
 
         textView3=findViewById(R.id.symptoms);
         string3=getIntent().getExtras().getString("Value2");
@@ -68,7 +70,7 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
         textView7.setText(string7);
 
 
-        button2= (Button) findViewById(R.id.confirmBooking);
+        button2= findViewById(R.id.confirmBooking);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -76,9 +78,9 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
                 startActivity(intent1);
             }
         });
-        progressbar = (ProgressBar)findViewById(R.id.progressBar);
-        confirm  = (Button)findViewById(R.id.confirmBooking);
-        showBooking = (TextView)findViewById(R.id.showText);
+        progressbar = findViewById(R.id.progressBar);
+        confirm  = findViewById(R.id.confirmBooking);
+        showBooking = findViewById(R.id.showText);
     }
 
     public void confirmBookingButton(final View view) {

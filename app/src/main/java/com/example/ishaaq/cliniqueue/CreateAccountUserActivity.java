@@ -36,7 +36,7 @@ public class CreateAccountUserActivity extends AppCompatActivity {
 
 
 
-        registerButton= (Button) findViewById(R.id.registerButton);
+        registerButton= findViewById(R.id.registerButton);
         registerButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -52,7 +52,7 @@ public class CreateAccountUserActivity extends AppCompatActivity {
             }
         });
 
-        textView=(TextView)findViewById(R.id.textView2);
+        textView= findViewById(R.id.textView2);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -62,7 +62,7 @@ public class CreateAccountUserActivity extends AppCompatActivity {
             }
         });
 
-        mDisplayDate = (EditText) findViewById(R.id.datepicker);
+        mDisplayDate = findViewById(R.id.datepicker);
         mDisplayDate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

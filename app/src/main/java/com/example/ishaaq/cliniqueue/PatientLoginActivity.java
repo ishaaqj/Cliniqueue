@@ -15,7 +15,7 @@ public class PatientLoginActivity extends Activity  {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_patient_login);
 
-        button2= (Button) findViewById(R.id.login);
+        button2= findViewById(R.id.login);
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

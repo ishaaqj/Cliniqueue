@@ -3,7 +3,7 @@
 
     <application>
 
-        <activity android:name="com.example.ishaaq.cliniqueue.cancellation_confirmation_page" />
+
     </application>
 
 </manifest>

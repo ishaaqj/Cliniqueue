@@ -7,14 +7,14 @@ import android.view.View;
 import android.widget.Button;
 
 public class ClinicEnterWaitTimeActivity extends AppCompatActivity {
-    private Button confirmWaitTime;
+    Button confirmWaitTime;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clinic_enter_wait_time);
-        confirmWaitTime = (Button)findViewById(R.id.confirmWaitTime);
+        confirmWaitTime = findViewById(R.id.confirmWaitTime);
     }
     public void setConfirmWaitTime(View view) {
         Intent intent1= new Intent(ClinicEnterWaitTimeActivity.this, ClientRequestsActivity.class);

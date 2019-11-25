@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ClinicsListActivity extends Activity {
 
@@ -22,7 +23,9 @@ public class ClinicsListActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_clinics_list);
 
-        textView2=(TextView)findViewById(R.id.clinic2);
+       // Toast.makeText(this, "coming from admin login", Toast.LENGTH_SHORT).show();
+
+        textView2= findViewById(R.id.clinic2);
         textView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +34,7 @@ public class ClinicsListActivity extends Activity {
 
             }
         });
-        textView3=(TextView)findViewById(R.id.clinic3);
+        textView3= findViewById(R.id.clinic3);
         textView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,7 +43,7 @@ public class ClinicsListActivity extends Activity {
 
             }
         });
-        textView4=(TextView)findViewById(R.id.clinic4);
+        textView4= findViewById(R.id.clinic4);
         textView4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,7 +52,7 @@ public class ClinicsListActivity extends Activity {
 
             }
         });
-        textView5=(TextView)findViewById(R.id.clinic5);
+        textView5= findViewById(R.id.clinic5);
         textView5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -58,7 +61,7 @@ public class ClinicsListActivity extends Activity {
 
             }
         });
-        textView6=(TextView)findViewById(R.id.clinic6);
+        textView6= findViewById(R.id.clinic6);
         textView6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -67,7 +70,7 @@ public class ClinicsListActivity extends Activity {
 
             }
         });
-        textView1=(TextView)findViewById(R.id.clinic1);
+        textView1= findViewById(R.id.clinic1);
 
         textView1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -147,14 +150,10 @@ public class ClinicsListActivity extends Activity {
             }
         });
 
-//        textView1=(TextView)findViewById(R.id.clinic1);
-//        textView1.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent intent= new Intent(ClinicsListActivity.this,ContactClinicActivity.class);
-//                startActivity(intent);
-//    }
-//
-//});
 }
+
+    public void addFilter(View view) {
+        Intent intent = new Intent(this, ClinicsFilterActivity.class);
+        startActivity(intent);
+    }
 }

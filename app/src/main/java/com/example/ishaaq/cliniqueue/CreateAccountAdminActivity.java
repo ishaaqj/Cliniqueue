@@ -16,8 +16,8 @@ public class CreateAccountAdminActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_create_account_admin);
-        registerButton = (Button)findViewById(R.id.registerButton);
-        SignIn = (TextView)findViewById(R.id.SignIn);
+        registerButton = findViewById(R.id.registerButton);
+        SignIn = findViewById(R.id.SignIn);
     }
 
     public void agreeAndRegisterButton(View view) {

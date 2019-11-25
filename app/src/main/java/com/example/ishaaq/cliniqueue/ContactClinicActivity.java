@@ -32,8 +32,8 @@ public class ContactClinicActivity extends AppCompatActivity {
         string1=getIntent().getExtras().getString("ClinicName");
         textView1.setText(string1);
 
-        CallClinicButton = (Button) findViewById(R.id.callButton);
-        BookAppointment= (Button) findViewById(R.id.BookAppointment);
+        CallClinicButton = findViewById(R.id.callButton);
+        BookAppointment= findViewById(R.id.BookAppointment);
 
         BookAppointment.setOnClickListener(new View.OnClickListener() {
             @Override

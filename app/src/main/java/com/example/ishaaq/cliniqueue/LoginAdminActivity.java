@@ -13,11 +13,21 @@ public class LoginAdminActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login_as_admin);
+
         login1 = (Button)findViewById(R.id.login);
+
+        login1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+
+                Intent gotoClientRequestsActivity = new Intent(LoginAdminActivity.this,ClientRequestsActivity.class);
+                startActivity(gotoClientRequestsActivity);
+
+            }
+        });
     }
 
-    public void loginAsAdmin(View view) {
-        Intent intent1= new Intent(LoginAdminActivity.this,ClientRequestsActivity.class);
-        startActivity(intent1);
-    }
+
 }

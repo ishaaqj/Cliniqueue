@@ -15,8 +15,8 @@ public class ShowAppointmentsActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booking_confirmation);
-        cancel = (Button)findViewById(R.id.cancel);
+        setContentView(R.layout.activity_show_appointments);
+        cancel = findViewById(R.id.cancel);
     }
 
     public void cancel(View view) {

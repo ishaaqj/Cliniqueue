@@ -9,8 +9,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class ClientDetailsActivity extends AppCompatActivity {
-    private Button accept;
-    private Button decline;
+    Button acceptButton;
+    Button declineButton;
 
     TextView textView1;
     String string1;
@@ -20,48 +20,58 @@ public class ClientDetailsActivity extends AppCompatActivity {
     String string3;
     TextView textView4;
     String string4;
+
     TextView textView5;
     String string5;
     TextView textView6;
     String string6;
     TextView textView7;
     String string7;
+    MyGlobalVariables g;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_booking_confirmation);
-        accept = (Button)findViewById(R.id.accept);
-        decline =(Button)findViewById(R.id.decline);
+        g = MyGlobalVariables.getInstance();
+        setContentView(R.layout.activity_client_details);
+        acceptButton = findViewById(R.id.accept);
+        declineButton = findViewById(R.id.decline);
 
         textView1=findViewById(R.id.Name);
-        string1=getIntent().getExtras().getString("userName");
+        string1=getIntent().getExtras().getString("clientName");
         textView1.setText(string1);
         //Toast.makeText(this, string1, Toast.LENGTH_SHORT).show();
 
         textView2=findViewById(R.id.reason);
-        string2=getIntent().getExtras().getString("reasonForVisit");
-        textView2.setText(string2);
+      //  string2=getIntent().getExtras().getString("reasonForVisit");
+        String reasonForVisit = g.getReasonForVisit();
+        textView2.setText(reasonForVisit);
+        Toast.makeText(this, reasonForVisit, Toast.LENGTH_SHORT).show();
 
         textView3=findViewById(R.id.symptoms);
-        string3=getIntent().getExtras().getString("Value2");
-        textView3.setText(string3);
+        //string3=getIntent().getExtras().getString("Value2");
+        String symptoms = g.getSymptoms();
+        textView3.setText(symptoms);
 
         textView4=findViewById(R.id.allergies);
-        string4=getIntent().getExtras().getString("Value3");
-        textView4.setText(string4);
+       // string4=getIntent().getExtras().getString("Value3");
+        String allergies = g.getAllergies();
+        textView4.setText(allergies);
 
         textView5=findViewById(R.id.History);
-        string5=getIntent().getExtras().getString("Value5");
-        textView5.setText(string5);
+       // string5=getIntent().getExtras().getString("Value5");
+        String history =  g.getHistory();
+        textView5.setText(history);
 
         textView6=findViewById(R.id.Age);
-        string6=getIntent().getExtras().getString("Value6");
-        textView6.setText(string6);
+       // string6=getIntent().getExtras().getString("Value6");
+        String age = g.getAge();
+        textView6.setText(age);
 
         textView7=findViewById(R.id.Weight);
-        string7=getIntent().getExtras().getString("Value7");
-        textView7.setText(string7);
+       // string7=getIntent().getExtras().getString("Value7");
+        String weight = g.getWeight();
+        textView7.setText(weight);
 
 
 

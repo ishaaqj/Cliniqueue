@@ -71,7 +71,6 @@
             android:text="SIGN IN AS ADMIN"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:onClick="loginAsAdmin"
             android:clickable="true"/>
 
     </LinearLayout>

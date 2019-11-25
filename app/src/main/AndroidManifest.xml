@@ -9,6 +9,8 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CALL_PHONE" />
 
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,6 +23,7 @@
         <activity android:name=".ClientRequestsActivity"/>
         <activity android:name=".ClinicsFilterActivity"/>
         <activity android:name=".ClinicsListActivity"/>
+        <activity android:name=".ClinicEnterWaitTimeActivity"/>
         <activity android:name=".ContactClinicActivity"/>
         <activity android:name=".CreateAccountAdminActivity"/>
         <activity android:name=".CreateAccountUserActivity">
@@ -31,6 +34,7 @@
         </activity>
         <activity android:name=".ExtraDetailsActivity"/>
         <activity android:name=".HomepageActivity">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />
@@ -45,6 +49,7 @@
         <activity android:name=".ReasonForVisitActivity"/>
         <activity android:name=".ShowAppointmentsActivity"/>
         <activity android:name=".waitingForConfirmationActivity"/>
+        <activity android:name=".MyGlobalVariables"/>
         <activity android:name=".notification" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"

@@ -6,6 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+
+
+
 public class HomepageActivity extends AppCompatActivity {
     private Button button14;
     private Button button13;
@@ -17,7 +20,7 @@ public class HomepageActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_page);
 
-        button14= (Button) findViewById(R.id.button14);
+        button14= findViewById(R.id.button14);
         button14.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -26,7 +29,7 @@ public class HomepageActivity extends AppCompatActivity {
             }
         });
 
-        button12= (Button) findViewById(R.id.button12);
+        button12= findViewById(R.id.button12);
         button12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -36,7 +39,7 @@ public class HomepageActivity extends AppCompatActivity {
         });
 
 
-        button13= (Button) findViewById(R.id.button13);
+        button13= findViewById(R.id.button13);
         button13.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -46,7 +49,7 @@ public class HomepageActivity extends AppCompatActivity {
         });
 
 
-        button15= (Button) findViewById(R.id.button15);
+        button15= findViewById(R.id.button15);
         button15.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

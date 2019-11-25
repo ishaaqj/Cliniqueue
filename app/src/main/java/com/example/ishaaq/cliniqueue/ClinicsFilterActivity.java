@@ -12,8 +12,8 @@ public class ClinicsFilterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_client_requests);
-        filter = (Button)findViewById(R.id.filter);
+        setContentView(R.layout.activity_clinics__filter);
+        filter = findViewById(R.id.filter);
     }
 
     public void filter(View view) {
