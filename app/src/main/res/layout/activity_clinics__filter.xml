@@ -10,14 +10,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bluetolightblue">
+        android:background="@color/white">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Clinics Filter"
-        android:textColor="@color/white"
+        android:textColor="#000"
         android:textStyle="bold"
         android:textSize="25dp"
         android:textAlignment="center"
@@ -31,13 +31,13 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:layout_marginTop="30dp"
-            android:textColorHint="@color/white"
-            android:backgroundTint="@color/white"
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red"
             android:layout_marginLeft="30dp"
             android:hint="Clinic Name" />
 
 
-        <TextView
+        <EditText
             android:id="@+id/editText1"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
@@ -45,10 +45,10 @@
             android:inputType="textPersonName"
             android:textSize="20sp"
             android:layout_marginTop="30dp"
-            android:textColorHint="@color/white"
-            android:backgroundTint="@color/white"
+            android:textColor="#000"
+            android:backgroundTint="@color/red"
             android:layout_marginLeft="30dp"
-            android:hint="Distance" />
+            android:text="Distance" />
 
 
         <SeekBar
@@ -62,7 +62,7 @@
             android:progressDrawable="@drawable/custom_progress"
             android:thumb="@drawable/thumb" />
 
-        <TextView
+        <EditText
             android:id="@+id/editText2"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
@@ -70,10 +70,10 @@
             android:inputType="textPersonName"
             android:textSize="20sp"
             android:layout_marginTop="30dp"
-            android:textColorHint="@color/white"
-            android:backgroundTint="@color/white"
+            android:textColor="#000"
+            android:backgroundTint="@color/red"
             android:layout_marginLeft="30dp"
-            android:hint="Wait Time" />
+            android:text="Wait Time" />
 
         <SeekBar
             android:id="@+id/seekBar2"
@@ -88,32 +88,41 @@
 
 
         <EditText
-        android:id="@+id/editText4"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="time"
-        android:hint="Availability Time From"/>
+            android:id="@+id/editText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="time"
+            android:hint="Availability Time From"
+            android:backgroundTint="@color/red"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColorHint="#000"/>
+
         <EditText
             android:id="@+id/editText5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="time"
-            android:hint="Availability Time To"/>
+            android:hint="Availability Time To"
+            android:backgroundTint="@color/red"
+            android:textColorHint="#000"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"/>
 
 
         <Button
-        android:id="@+id/filter"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:text="Filter"
-        android:layout_marginTop="15dp"
-        android:layout_marginLeft="30dp"
-        android:textSize="20dp"
-        android:textColor="@color/white"
-        android:onClick="filter"
-        android:background="@drawable/transparent_button" />
+            android:id="@+id/filter"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:onClick="filter"
+            android:background="@color/green" />
 
 
 

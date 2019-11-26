@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class waitingForConfirmationActivity extends AppCompatActivity {
 
@@ -26,8 +27,6 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
     TextView textView7;
     String string7;
 
-    Button button2;
-
     ProgressBar progressbar;
     Button confirm;
     TextView showBooking;
@@ -39,6 +38,8 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         g = MyGlobalVariables.getInstance();
         setContentView(R.layout.activity_waiting_for_confirmation);
+
+       // confirmButton = (Button)findViewById(R.id.confirmBooking);
 
         textView1=findViewById(R.id.Name);
         string1=getIntent().getExtras().getString("userName");
@@ -70,21 +71,16 @@ public class waitingForConfirmationActivity extends AppCompatActivity {
         textView7.setText(string7);
 
 
-        button2= findViewById(R.id.confirmBooking);
-        button2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent1= new Intent(waitingForConfirmationActivity.this, BookingConfirmationActivity.class);
-                startActivity(intent1);
-            }
-        });
         progressbar = findViewById(R.id.progressBar);
         confirm  = findViewById(R.id.confirmBooking);
-        showBooking = findViewById(R.id.showText);
+       // showBooking = findViewById(R.id.showText);
+
+
     }
 
     public void confirmBookingButton(final View view) {
-        showBooking.setText("Booking response has been sent.\n Please wait for a resposne");
+        //showBooking.setVisibility(View.VISIBLE);
+        Toast.makeText(this, "Booking Request has been sent.", Toast.LENGTH_SHORT).show();
         progressbar.setVisibility(View.VISIBLE);
         final Handler handler = new Handler();
         handler.postDelayed(new Runnable() {

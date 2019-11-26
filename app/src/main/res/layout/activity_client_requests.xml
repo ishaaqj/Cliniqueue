@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bluetolightblue"
+    android:background="@color/white"
     android:orientation="vertical"
     tools:context=".ClientRequestsActivity"
     android:weightSum="1">
@@ -22,9 +22,26 @@
             android:gravity="center"
             tools:layout_editor_absoluteX="116dp"
             tools:layout_editor_absoluteY="390dp"
-            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
             android:textSize="45sp"
-            android:textColor="#FFFFFF"/>
+            android:textColor="#000"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please lick on the name to see the details"
+            android:layout_gravity="center"
+            android:gravity="center"
+            tools:layout_editor_absoluteX="116dp"
+            tools:layout_editor_absoluteY="390dp"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:textColor="#000"
+            android:textAlignment="center"/>
+
+
     <TextView
         android:id="@+id/Nour"
         android:layout_width="match_parent"
@@ -32,9 +49,10 @@
         android:text="Nour Dowedar"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="390dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/green"
         android:textSize="32sp"
-        android:textColor="#FFFFFF"
         android:onClick="Nour"
         android:clickable="true"/>
 
@@ -45,9 +63,10 @@
         android:text="Abdelrahman Mohamad"
         tools:layout_editor_absoluteX="61dp"
         tools:layout_editor_absoluteY="121dp"
-        android:layout_marginBottom="10dp"
         android:textSize="32sp"
-        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/red"
         android:onClick="Abdelrahman"
         android:clickable="true"/>
 
@@ -58,9 +77,10 @@
         android:text="Tanisha Jain"
         tools:layout_editor_absoluteX="64dp"
         tools:layout_editor_absoluteY="228dp"
-        android:layout_marginBottom="10dp"
         android:textSize="32sp"
-        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/green"
         android:onClick="Tanisha"
         android:clickable="true"/>
 
@@ -71,9 +91,10 @@
         android:text="Jimit Modi"
         tools:layout_editor_absoluteX="138dp"
         tools:layout_editor_absoluteY="546dp"
-        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
         android:textSize="32sp"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/red"
         android:onClick="Jimit"
         android:clickable="true"/>
 
@@ -84,9 +105,10 @@
         android:text="Ishaaq Jiffry"
         tools:layout_editor_absoluteX="89dp"
         tools:layout_editor_absoluteY="159dp"
-        android:layout_marginBottom="10dp"
         android:textSize="32sp"
-        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/green"
         android:onClick="Ishaaq"
         android:clickable="true"/>
 
@@ -98,9 +120,10 @@
         android:text="Michael Zalewski"
         tools:layout_editor_absoluteX="63dp"
         tools:layout_editor_absoluteY="167dp"
-        android:layout_marginBottom="10dp"
         android:textSize="32sp"
-        android:textColor="#FFFFFF"
+        android:layout_marginTop="30dp"
+        android:textAlignment="center"
+        android:textColor="@color/red"
         android:onClick="Michael"
         android:clickable="true"/>
 

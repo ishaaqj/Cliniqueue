@@ -14,19 +14,66 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bluetolightblue">
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/textView8"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:layout_marginTop="100dp"
+            android:layout_marginTop="60dp"
             android:layout_marginRight="60dp"
-            android:text="CURRENT APPOINTMENT\nAPPOINTMENT CONFIRMATION #\n 1 \n\n CLINIC NAME \n Apple Tree Clinic \n\n  WAIT TIME\n  10 minutes left \n\n QUEUE NUMBER\n 3"
+            android:text="Below are your appointment details"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="APPOINTMENT CONFIRMATION: #\t 1 "/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="CLINIC NAME: \t Apple Tree Clinic "
+             />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="WAIT TIME:\t  10 minutes left "
+             />
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:text="QUEUE NUMBER:\t 3"
+            />
 
 
         <Button
@@ -38,7 +85,7 @@
             android:layout_marginTop="50dp"
             android:text="Cancel Appointment"
             android:textSize="20sp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:textColor="@color/white"
             android:onClick="cancel"/>
 

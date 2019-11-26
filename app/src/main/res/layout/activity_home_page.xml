@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
     android:theme="@android:style/Theme.NoTitleBar"
-    android:background="@drawable/bluetolightblue"
+    android:background="@color/white"
     tools:context="com.example.ishaaq.cliniqueue.HomepageActivity">
 
     <ScrollView
@@ -20,11 +20,11 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="257dp"
+            android:layout_width="300dp"
             android:layout_height="83dp"
-            android:text="Cliniqueue"
+            android:text="CLINIQUEUE"
             android:textAlignment="center"
-            android:textColor="#FFFF"
+            android:textColor="#000"
             android:textSize="50dp"
             android:textStyle="bold"
             tools:layout_editor_absoluteX="77dp"
@@ -38,18 +38,18 @@
             android:layout_width="361dp"
             android:layout_height="217dp"
             android:layout_gravity="center"
-            android:src="@drawable/hospitalicon"
+            android:src="@drawable/logo_cliniqueue_image"
             tools:layout_editor_absoluteX="30dp"
             tools:layout_editor_absoluteY="167dp" />
 
         <Button
             android:id="@+id/button15"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="60dp"
             android:text="Register as a clinic admin"
             tools:layout_editor_absoluteX="97dp"
             tools:layout_editor_absoluteY="619dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_gravity="center"
@@ -57,12 +57,12 @@
 
         <Button
             android:id="@+id/button14"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="60dp"
             android:text="Sign up as a user"
             tools:layout_editor_absoluteX="97dp"
             tools:layout_editor_absoluteY="554dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_gravity="center"
@@ -70,25 +70,25 @@
 
         <Button
             android:id="@+id/button13"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
             android:text="Sign in as a clinic admin"
             tools:layout_editor_absoluteX="97dp"
             tools:layout_editor_absoluteY="487dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_marginTop="10dp"/>
 
         <Button
             android:id="@+id/button12"
-            android:layout_width="match_parent"
+            android:layout_width="400dp"
             android:layout_height="60dp"
             android:text="Sign in as a user"
             tools:layout_editor_absoluteX="97dp"
             tools:layout_editor_absoluteY="422dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:textColor="@color/white"
             android:textSize="20dp"
             android:layout_gravity="center"

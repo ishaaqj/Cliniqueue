@@ -10,7 +10,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:background="@drawable/bluetolightblue">
+            android:background="@color/white">
 
                 <TextView
                     android:id="@+id/textView10"
@@ -21,7 +21,7 @@
                     android:layout_marginRight="60dp"
                     android:text="No clinics with the filters you requested were found."
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="#000"
                     android:textSize="30dp"/>
                 <TextView
                     android:id="@+id/textView11"
@@ -32,7 +32,7 @@
                     android:layout_marginRight="60dp"
                     android:text="Do you want to get a push notification as soon as they are available?"
                     android:textAlignment="center"
-                    android:textColor="@color/white"
+                    android:textColor="#000"
                     android:textSize="30dp"/>
 
                 <LinearLayout
@@ -48,10 +48,12 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="Yes"
-                            android:background="@drawable/transparent_bg_bordered"
+                            android:background="@color/green"
                             android:textColor="@color/white"
                             android:textSize="20dp"
-                            android:onClick="yes"/>
+                            android:onClick="yes"
+                            android:layout_marginRight="5dp"
+                            android:layout_marginLeft="5dp"/>
 
                         <Button
                             android:id="@+id/no"
@@ -59,9 +61,10 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:text="No"
-                            android:background="@drawable/transparent_bg_bordered"
+                            android:background="@color/green"
                             android:textColor="@color/white"
                             android:textSize="20dp"
+                            android:layout_marginRight="5dp"
                             android:onClick="no"/>
 
                 </LinearLayout>

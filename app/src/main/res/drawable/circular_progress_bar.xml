@@ -13,9 +13,9 @@
         android:thicknessRatio="7.0">
 
         <gradient
-            android:centerColor="#e5e5e5"
-            android:endColor="#ffffff"
-            android:startColor="#cccccc"
+            android:centerColor="#a51927"
+            android:endColor="#8d1521"
+            android:startColor="#BC1C2C"
             android:angle="0"
             android:type="sweep"
             android:useLevel="false" />

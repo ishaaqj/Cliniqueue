@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bluetolightblue"
+    android:background="@color/white"
     android:orientation="vertical"
     android:fitsSystemWindows="true"
     tools:context=".ClinicsListActivity"
@@ -14,13 +14,24 @@
         android:id="@+id/textView18"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Clinic List"
+        android:text="Clinics List"
         android:gravity="center"
         android:layout_gravity="center"
         tools:layout_editor_absoluteX="116dp"
         tools:layout_editor_absoluteY="390dp"
         android:textSize="45sp"
-        android:textColor="#FFFFFF"/>
+        android:textColor="#000"/>
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please click on the clinic to see the details"
+        android:gravity="center"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="390dp"
+        android:textSize="15sp"
+        android:textColor="#000"/>
 
     <TextView
         android:id="@+id/clinic1"
@@ -28,10 +39,12 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:text="UOttawa Health Services"
-        android:textSize="32sp"
-        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textColor="#000"
         android:onClick="openReasonForVisit"
-
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
         android:clickable="true"
         />
 
@@ -41,9 +54,11 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:text="Rideau-Friel Medical Centre"
-        android:textSize="32sp"
-        android:textColor="#FFFFFF"
-
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
         android:clickable="true"
         />
     <TextView
@@ -52,9 +67,11 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:text="Appletree Medical Group - Sparks"
-        android:textSize="32sp"
-        android:textColor="#FFFFFF"
-
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
         android:clickable="true"
         />
 
@@ -64,8 +81,11 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:text="Appletree Medical Group - Bank"
-        android:textSize="32sp"
-        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
         android:clickable="true"
         />
 
@@ -75,9 +95,11 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:text="Carleton University Medical Services"
-        android:textSize="32sp"
-        android:textColor="#FFFFFF"
-
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
         android:clickable="true"
         />
     <TextView
@@ -86,21 +108,26 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.1"
         android:text="Appletree Medical Group - Slater"
-        android:textSize="32sp"
-        android:textColor="#FFFFFF"
-        
+        android:textSize="25sp"
+        android:textColor="#000"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
         android:clickable="true"
         />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="400dp"
         android:layout_height="wrap_content"
         android:text="Add Filter"
-        android:background="@drawable/transparent_bg_bordered"
+        android:background="@color/green"
         android:textColor="@color/white"
         android:textSize="20dp"
-        android:onClick="addFilter"/>
+        android:onClick="addFilter"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="15dp"/>
 
 
 </LinearLayout>

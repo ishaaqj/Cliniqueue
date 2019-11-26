@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bluetolightblue"
+        android:background="@color/white"
         tools:layout_editor_absoluteY="64dp"
         tools:layout_editor_absoluteX="-79dp">
 
@@ -31,7 +31,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="25dp"
             android:textStyle="bold" />
 
@@ -45,7 +45,7 @@
             android:layout_marginTop="20dp"
             android:text="Get rid of the line, Join Now"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="20dp" />
 
         <EditText
@@ -56,8 +56,8 @@
             android:ems="10"
             android:inputType="textPersonName"
             android:layout_marginTop="30dp"
-            android:textColorHint="@color/white"
-            android:backgroundTint="@color/white"
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red"
             android:hint="Clinic  Name" />
 
         <EditText
@@ -67,9 +67,9 @@
             android:ems="10"
             android:layout_marginTop="15dp"
             android:layout_gravity="center"
-            android:textColorHint="@color/white"
             android:inputType="textPersonName"
-            android:backgroundTint="@color/white"
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red"
             android:hint="Clinic Address" />
 
         <EditText
@@ -78,11 +78,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:hint="Working Hours"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red" />
 
         <EditText
             android:id="@+id/editText5"
@@ -90,11 +90,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:hint="Phone Number"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red" />
 
         <EditText
             android:id="@+id/editText6"
@@ -104,9 +104,9 @@
             android:layout_marginTop="15dp"
             android:layout_gravity="center"
             android:inputType="textPersonName"
-            android:backgroundTint="@color/white"
-            android:hint="Contact Name"
-            android:textColorHint="@color/white" />
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red"
+            android:hint="Contact Name" />
 
         <EditText
             android:id="@+id/editText7"
@@ -114,11 +114,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:hint="Email Address"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red" />
 
         <EditText
             android:id="@+id/editText8"
@@ -126,11 +126,11 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:hint="Password"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red" />
 
         <Button
             android:id="@+id/agreeAndRegister"
@@ -141,7 +141,7 @@
             android:layout_gravity="center"
             android:textSize="20dp"
             android:textColor="@color/white"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:onClick="agreeAndRegisterButton"/>
 
         <TextView
@@ -152,7 +152,7 @@
             android:textSize="15dp"
             android:textAlignment="center"
             android:layout_gravity="center"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:layout_marginTop="30dp"
             android:onClick = "SignIn"/>
 

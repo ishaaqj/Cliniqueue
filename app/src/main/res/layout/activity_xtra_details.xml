@@ -13,7 +13,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/bluetolightblue"
+        android:background="@color/white"
         android:orientation="vertical">
 
         <TextView
@@ -24,7 +24,7 @@
             android:layout_marginTop="10dp"
             android:text="Please Enter the Following Details"
             android:textAlignment="center"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="20dp"
             android:textStyle="bold" />
 
@@ -35,7 +35,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="50dp"
             android:text="Please enter the symptoms"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="20dp" />
 
         <EditText
@@ -45,10 +45,11 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="@color/white"
+            android:backgroundTint="@color/red"
+            android:textColorHint="#000"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+             />
 
         <TextView
             android:id="@+id/textView5"
@@ -57,7 +58,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
             android:text="Please enter relevant medical history(if any)"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="20dp" />
 
         <EditText
@@ -67,10 +68,10 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:backgroundTint="@color/red"
+            android:textColorHint="#000"/>
 
         <TextView
             android:id="@+id/textView6"
@@ -79,7 +80,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
             android:text="Please enter your allergies (if any)"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="20dp" />
 
         <EditText
@@ -89,10 +90,10 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:backgroundTint="@color/red"
+            android:textColorHint="#000" />
 
         <TextView
             android:id="@+id/textView7"
@@ -101,7 +102,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
             android:text="Please enter your age"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="20dp" />
 
         <EditText
@@ -111,10 +112,10 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:backgroundTint="@color/red"
+            android:textColorHint="#000" />
 
         <TextView
             android:id="@+id/textView8"
@@ -123,7 +124,7 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="15dp"
             android:text="Please enter your weight"
-            android:textColor="@color/white"
+            android:textColor="#000"
             android:textSize="20dp" />
 
         <EditText
@@ -133,17 +134,17 @@
             android:layout_marginLeft="15dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="15dp"
-            android:backgroundTint="@color/white"
             android:ems="10"
             android:inputType="textPersonName"
-            android:textColorHint="@color/white" />
+            android:backgroundTint="@color/red"
+            android:textColorHint="#000"  />
 
         <Button
             android:id="@+id/registerButton"
             android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="15dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:text="SUBMIT"
             android:layout_gravity="center"
             android:textColor="@color/white"

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/bluetolightblue"
+    android:background="@color/white"
     tools:context=".ClinicEnterWaitTimeActivity">
 
     <LinearLayout
@@ -19,7 +19,7 @@
             android:layout_height="wrap_content"
             android:text="Queue Number"
             android:textSize="25dp"
-            android:textColor="@color/white"
+            android:textColor="@color/red"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="50dp"/>
@@ -28,11 +28,11 @@
             android:id="@+id/editText13"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="@color/white"
             android:ems="20"
             android:hint="Enter the client's place in the queue"
             android:inputType="number"
-            android:textColorHint="@color/white"
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red"
             tools:layout_editor_absoluteX="36dp"
             tools:layout_editor_absoluteY="196dp"
             android:layout_marginLeft="15dp"
@@ -44,7 +44,7 @@
             android:layout_height="wrap_content"
             android:text="Wait Time"
             android:textSize="25dp"
-            android:textColor="@color/white"
+            android:textColor="@color/red"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"
             android:layout_marginTop="50dp"/>
@@ -56,7 +56,8 @@
             android:hint="Enter the client's approximate wait time"
             android:ems="20"
             android:inputType="number"
-            android:textColorHint="@color/white"
+            android:textColorHint="#000"
+            android:backgroundTint="@color/red"
             tools:layout_editor_absoluteX="36dp"
             tools:layout_editor_absoluteY="196dp"
             android:layout_marginLeft="15dp"
@@ -64,11 +65,11 @@
 
         <Button
             android:id="@+id/confirmWaitTime"
-            android:layout_width="300dp"
+            android:layout_width="400dp"
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:textSize="20dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:text="Confirm"
             android:layout_marginTop="50dp"
             android:layout_gravity="center"

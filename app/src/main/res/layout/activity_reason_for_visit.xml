@@ -5,9 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    android:background="@drawable/bluetolightblue"
-
-
     tools:context="com.example.ishaaq.cliniqueue.ReasonForVisitActivity">
 
     <ScrollView
@@ -17,14 +14,14 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bluetolightblue">
+        android:background="@color/white">
 
         <TextView
             android:id="@+id/textView2"
-            android:layout_width="320dp"
+            android:layout_width="400dp"
             android:layout_height="38dp"
-            android:text="Reason for visit?"
-            android:textColor="#FFFF"
+            android:text="Select your reason for visit"
+            android:textColor="#000"
             android:textAlignment="center"
             android:textStyle="bold"
             android:textSize="27dp"
@@ -42,7 +39,7 @@
             tools:layout_editor_absoluteY="81dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:textColor="@color/white"
             android:textSize="15dp"/>
 
@@ -52,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/red"
             android:text="Skin Disorder"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -65,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:text="Vaccination"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -78,7 +75,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/red"
             android:text="joint disorder"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -91,7 +88,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:text="back problems"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -104,7 +101,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/red"
             android:text="Cholestrol problems"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -119,7 +116,7 @@
             tools:layout_editor_absoluteY="327dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:textColor="@color/white"
             android:textSize="15dp"/>
         <Button
@@ -131,7 +128,7 @@
             tools:layout_editor_absoluteY="368dp"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/red"
             android:textColor="@color/white"
             android:textSize="15dp"/>
 
@@ -141,7 +138,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:text="Blood pressure"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -154,7 +151,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/red"
             android:text="Mental Health"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -167,7 +164,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/green"
             android:text="Headaches and migraines"
             android:textColor="@color/white"
             android:textSize="15dp"
@@ -180,7 +177,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
-            android:background="@drawable/transparent_button"
+            android:background="@color/red"
             android:text="Other"
             android:textColor="@color/white"
             android:textSize="15dp"

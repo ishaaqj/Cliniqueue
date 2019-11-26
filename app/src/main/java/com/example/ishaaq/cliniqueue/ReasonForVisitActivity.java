@@ -156,7 +156,7 @@ public class ReasonForVisitActivity extends AppCompatActivity {
                 Intent intent1= new Intent(ReasonForVisitActivity.this,ExtraDetailsActivity.class);
 
                 reason = "Mental Health";
-                MyGlobalVariables g = ((MyGlobalVariables)getApplication());
+//                MyGlobalVariables g = ((MyGlobalVariables)getApplication());
                 g.setReasonForVisit(reason);
                 startActivity(intent1);
                 //startActivity(new Intent(reasonForVisitActivity.this, xtraDetailsActivity.class));

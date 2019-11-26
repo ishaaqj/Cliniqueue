@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bluetolightblue"
+    android:background="@color/white"
     tools:context=".ContactClinicActivity">
 
     <LinearLayout
@@ -22,7 +22,7 @@
             android:gravity="center"
             android:layout_gravity="center"
             android:text="UOttawa Health Services"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="32sp"
             android:textStyle="bold" />
 
@@ -33,7 +33,7 @@
             android:layout_marginTop="30dp"
             android:gravity="center"
             android:text="100 Marie-Curie"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="20sp" />
 
         <TextView
@@ -43,7 +43,7 @@
             android:layout_marginTop="20dp"
             android:gravity="center"
             android:text="Open today 8:00AM - 8:00PM"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="20sp" />
 
         <TextView
@@ -53,7 +53,7 @@
             android:layout_marginTop="10dp"
             android:gravity="center"
             android:text="Estimated wait time: 120 min"
-            android:textColor="#FFFFFF"
+            android:textColor="#000"
             android:textSize="20sp" />
 
         <Button
@@ -62,7 +62,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:text="Call Clinic"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -75,7 +75,7 @@
             android:layout_height="70dp"
             android:layout_gravity="center"
             android:layout_marginTop="50dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:text="Book Appointment"
             android:textColor="@color/white"
             android:textSize="20sp"

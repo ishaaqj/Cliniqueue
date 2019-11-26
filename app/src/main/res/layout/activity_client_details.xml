@@ -10,17 +10,27 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bluetolightblue">
+        android:background="@color/white">
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="30dp"
+            android:text="CLIENT DETAILS"
+            android:textColor="#000"
+            android:textSize="45dp"
+            android:textAlignment="center"/>
 
         <TextView
             android:id="@+id/Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="20dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="40dp"
             android:text="Name"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textColor="#000"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/reason"
@@ -29,8 +39,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Reason for visit"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textColor="#000"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/symptoms"
@@ -39,8 +49,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Symptoms"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textColor="#000"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/allergies"
@@ -49,8 +59,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Allergies"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textColor="#000"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/History"
@@ -59,8 +69,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="History"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textColor="#000"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/Age"
@@ -69,8 +79,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Age"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textColor="#000"
+            android:textSize="25dp" />
 
         <TextView
             android:id="@+id/Weight"
@@ -79,8 +89,8 @@
             android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
             android:text="Weight"
-            android:textColor="@color/white"
-            android:textSize="30dp" />
+            android:textColor="#000"
+            android:textSize="25dp" />
 
         <Button
             android:id="@+id/accept"
@@ -89,7 +99,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:text="Accept request"
             android:textColor="@color/white"
             android:textSize="20dp"
@@ -102,7 +112,7 @@
             android:layout_marginLeft="30dp"
             android:layout_marginTop="30dp"
             android:layout_marginRight="30dp"
-            android:background="@drawable/transparent_bg_bordered"
+            android:background="@color/green"
             android:text="Decline request"
             android:textColor="@color/white"
             android:textSize="20dp"
