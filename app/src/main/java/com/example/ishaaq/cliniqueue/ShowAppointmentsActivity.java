@@ -35,7 +35,7 @@ public class ShowAppointmentsActivity extends Activity {
         builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                Intent intent1 = new Intent(ShowAppointmentsActivity.this, ShowAppointmentsActivity.class);
+                Intent intent1 = new Intent(ShowAppointmentsActivity.this, Map.class);
                 startActivity(intent1);
             }
         });
