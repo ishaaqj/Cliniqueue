@@ -66,24 +66,35 @@
 
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/showClinicsList"
                 android:text="Show Clinics List"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:layout_weight="1"
                 android:onClick="showClinicsListButton"
                 android:background="@color/white"/>
 
             <Button
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:id="@+id/showAppointments"
                 android:text="Appointments"
                 android:layout_weight="1"
-                android:textSize="20dp"
+                android:textSize="17dp"
                 android:onClick="showAppointmentsButton"
                 android:background="@color/white"/>
                 />
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:id="@+id/logout"
+                android:text="Log Out"
+                android:layout_weight="1"
+                android:textSize="17dp"
+                android:onClick="logOut"
+                android:background="@color/white"/>
+            />
+
         </LinearLayout>
 
 

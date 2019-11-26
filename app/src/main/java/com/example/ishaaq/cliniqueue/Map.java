@@ -137,4 +137,9 @@ public class Map extends FragmentActivity implements OnMapReadyCallback {
         Intent intent4= new Intent(Map.this, ClinicsListActivity.class);
         startActivity(intent4);
     }
+
+    public void logOut(View view) {
+        Intent intent = new Intent (this, HomepageActivity.class);
+        startActivity(intent);
+    }
 }
