@@ -52,15 +52,10 @@
 
 
         <SeekBar
-            android:id="@+id/seekBar1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:indeterminate="true"
-            android:max="150"
-            android:paddingTop="40dp"
-            android:progress="10"
-            android:progressDrawable="@drawable/custom_progress"
-            android:thumb="@drawable/thumb" />
+            android:id="@+id/simpleSeekBar"
+            android:layout_marginTop="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
 
         <EditText
             android:id="@+id/editText2"
@@ -76,15 +71,10 @@
             android:text="Wait Time" />
 
         <SeekBar
-            android:id="@+id/seekBar2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:indeterminate="true"
-            android:max="150"
-            android:paddingTop="40dp"
-            android:progress="10"
-            android:progressDrawable="@drawable/custom_progress"
-            android:thumb="@drawable/thumb" />
+            android:id="@+id/simpleSeekBar2"
+            android:layout_marginTop="40dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
 
 
         <EditText
